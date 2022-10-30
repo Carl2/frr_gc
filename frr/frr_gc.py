@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-from frr import printer
-import ipdb
-#import printer
 
+import re
+import time
 
 
 
@@ -18,7 +17,15 @@ class Rider:
         self.team = args[Gc_row.TEAM]
         self.stage = args[Gc_row.STAGE]
         self.effort = args[Gc_row.EFFORT]
-        self.time = args[Gc_row.TIME]
+        self.time = time.strptime(args[Gc_row.TIME],"%H:%M:%S.%f")
+        self.parse_effort(self.effort)
+
+
+    def parse_effort(self, effort_str):
+        """Parse the effort into watts and w/kg."""
+        watt,wkg = re.split("\s",effort_str)
+        self.watt = int(watt.replace("w",""))
+        self.wkg = float(wkg.replace("@","").replace("wkg",""))
 
 
 
@@ -30,7 +37,7 @@ class Rider:
         Tabulated Rider
         """
         table = [self.table, self.frhc, self.gender, self.name, self.team,
-                 self.stage, self.effort, self.time]
+                 self.stage, self.effort, self.time, self.watt, self.wkg]
         return table
 
 
@@ -48,6 +55,9 @@ class Gc_row:
     STAGE = 5
     EFFORT = 6
     TIME = 7
+    #Extra fields, Parsed from effort
+    WATT = 8
+    WKG = 9
 
     Column_names = {
         TABLE: "TABLE",
@@ -57,7 +67,10 @@ class Gc_row:
         TEAM: "TEAM",
         STAGE: "STAGE",
         EFFORT: "EFFORT",
-        TIME: "TIME"
+        TIME: "TIME",
+        WATT: "WATT",
+        WKG: "WKG"
+
     }
 
     @staticmethod
@@ -126,6 +139,7 @@ def parse_table(table,filter_func=None):
 
 
 def main():
+    import printer
     tbl=[
         ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 1, "410w @4.10wkg", "00:45:04.294"],
         ["GC", "GC-GHT", "-M", "Patrick Caisse", "LWATT - MWoFosCC", 1, "314w @4.10wkg", "00:45:14.044"],
