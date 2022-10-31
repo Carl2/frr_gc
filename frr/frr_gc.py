@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-
+"""
+Each row becomes a Rider , maybe the naming is wrong.
+"""
 import re
 import time
 
@@ -109,10 +111,9 @@ class Gc_row:
 class TableType:
     GC = 0
 
-
-
     @staticmethod
     def get_parser(row_type):
+        "Return a parser function for a specific Row."
         if row_type == TableType.GC:
             return Gc_row.row_parser
 

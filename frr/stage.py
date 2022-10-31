@@ -1,13 +1,11 @@
-import ipdb
+#import ipdb
 import time
-from tabulate import tabulate
 import functools
-
 
 class TourRider:
 
     def __init__(self, stage_rider):
-        "docstring"
+        """docstring"""
         self.name = stage_rider.name
         self.stages = [stage_rider]
 
@@ -70,6 +68,29 @@ def create_tour_rider(rider, dic):
     return dic
 
 
+def add_rider_to_stage(stage_dic,tour_rider,stage):
+    """
+    Keyword Arguments:
+    stage_dic  -- dictionary to use
+    tour_rider -- Rider to add
+    stage      -- stage name
+    """
+    if stage in stage_dic:
+        stage_dic[stage].append(tour_rider)
+    else:
+        stage_dic[stage] = [tour_rider]
+    return stage_dic
+
+
+def create_stage_dic(stage_dic, tour_rider):
+    """
+    Keyword Arguments:
+    dic        -- Dictionary to use.
+    tour_rider -- TourRider
+    """
+    [add_rider_to_stage(stage_dic, tour_rider, stage.stage) for stage in tour_rider.stages ]
+
+
 def create_tour(list_stage_riders):
     """
     Keyword Arguments:
@@ -77,9 +98,12 @@ def create_tour(list_stage_riders):
 
     some of the riders are extracted multiple times
     """
-    dic = {}
-    [create_tour_rider(rider, dic) for rider in list_stage_riders]
-    return dic
+
+    name_dic = {}
+    stage_dic = {}
+    [create_tour_rider(rider, name_dic) for rider in list_stage_riders]
+    [create_stage_dic(stage_dic, tour_rider) for (name, tour_rider) in name_dic.items() ]
+    return (name_dic,stage_dic)
 
 
 
@@ -90,12 +114,16 @@ def main():
         ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 1, "410w @4.10wkg", "00:45:04.294"],
         ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 2, "410w @4.10wkg", "00:45:04.294"],
         ["GC", "GC-GHT", "-M", "Patrick Caisse", "LWATT - MWoFosCC", 1, "314w @4.10wkg", "00:45:14.044"],
-        ["GC", "GC-GHT", "-M", "Jason Bridges", "RELENTLESS - RELENTLESS - LETOUR", 1, "336w @4.10wkg", "00:45:15.217"]
+        ["GC", "GC-GHT", "-M", "Jason Bridges", "RELENTLESS - RELENTLESS - LETOUR", 1, "336w @4.10wkg", "00:45:15.217"],
+        ["GC", "GC-GHT", "-M", "Jason Bridges", "RELENTLESS - RELENTLESS - LETOUR", 2, "336w @4.10wkg", "00:45:15.217"]
     ]
 
     stage_riders = [frr_gc.table_parser(row, frr_gc.TableType.GC) for row in tbl]
+    name_dict, stage_dict = create_tour(stage_riders)
 
-    create_tour(stage_riders)
+
+    print(len(stage_dict[2]))
+
 
 
 if __name__ == '__main__':
