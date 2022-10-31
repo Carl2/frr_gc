@@ -6,7 +6,7 @@ import re
 import time
 
 
-
+TIME_FORMAT="%H:%M:%S"
 
 class Rider:
 
@@ -32,14 +32,19 @@ class Rider:
 
 
     def __str__(self):
-        return "{} {} {} {} {} {} {} {}".format(self.table,self.frhc,self.gender,self.name,self.team,self.stage,self.effort, self.time)
+        return "{} {} {} {} {} {} {} {}".format(self.table, self.frhc,
+                                                self.gender, self.name,
+                                                self.team, self.stage,
+                                                self.effort,
+                                                time.strftime(TIME_FORMAT, self.time))
 
     def tabulate(self):
         """
         Tabulated Rider
         """
         table = [self.table, self.frhc, self.gender, self.name, self.team,
-                 self.stage, self.effort, self.time, self.watt, self.wkg]
+                 self.stage, self.effort, time.strftime(TIME_FORMAT, self.time),
+                 self.watt, self.wkg]
         return table
 
 
