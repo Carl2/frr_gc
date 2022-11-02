@@ -7,9 +7,9 @@ GC      GC-JLP  -F      Hilary Readhead         EVOLUTION - EVOLUTION - LETOUR  
 import sqlite3
 import argparse
 import logging
-import time
 from datetime import datetime
 import re
+from frr import monad as m
 
 log = logging.getLogger("FrrDbParser")
 log.setLevel(logging.DEBUG)
@@ -144,65 +144,20 @@ def open_txt_file(filename):
 
 
 
-
-
-
 ###############################################################################
-#                          Parsing arguments and such                         #
+#                            Pipline add row to db                            #
+# The idea is to transform the raw material to object and insert the object
+# into the database.
+# raw -> Obj -> inser_db
 ###############################################################################
 
-def parse_arguments():
-    """Parse arguments."""
-    parser = argparse.ArgumentParser(
-        description='Create a database from frr text')
-    parser.add_argument('--file', dest='frr_text_file',
-                        help='Frr text file', required=True)
-    parser.add_argument('--db',
-                        dest='db_file',
-                        help='Frr text file')
-    return parser.parse_args()
-
-def main():
-    p = parse_arguments()
-    db_connection = create_db_file(new_db_file=p.db_file)
-    tbl_create_fn = create_table_fn(db_conn_cursor=db_connection.cursor())
-    tbl_create_fn("Tbl", "FRHC", "Gender",
-                  "Name", "Team", "Stage", "Watt", "Time", table_name="db")
+def raw_to_obj(raw_str):
+    return m.Monad( GcRow(raw_str) )
 
 
-if __name__ == '__main__':
-    main()
 
-
-###############################################################################
-#                                    Test
-###############################################################################
-class TestClass:
-    def test_create_GcRow(self):
-        gc = GcRow(r"GC      GC-JLP  -F      Hilary Readhead         EVOLUTION - EVOLUTION - LETOUR  8       121w @1.80wkg   01:31:02.265")
-        assert gc is not None
-        assert gc.effort == "121w @1.80wkg"
-        assert gc.time ==  "01:31:02.265000"
-        assert gc.watt == 121
-        assert gc.wkg == 1.80
-
-        gc = GcRow(r"GC      GC-CRP  -M      Eric Brandhorst         TEAMCLS - Équipe Orange         1       276w @4.00wkg   00:48:08.726")
-        assert gc is not None
-        assert gc.table == "GC"
-        assert gc.frhc == "GC-CRP"
-        assert gc.gender == "-M"
-        assert gc.name ==  "Eric Brandhorst"
-        assert gc.team ==  "TEAMCLS - Équipe Orange"
-        assert gc.stage == 1
-        assert gc.effort == "276w @4.00wkg"
-        assert gc.watt == 276
-        assert gc.wkg == 4.00
-        assert gc.time ==  "00:48:08.726000"
-
-    def test_read_file(self):
-        """
-
-        """
-        gcs = open_txt_file("/home/calle/git/frr_gc/season_1.txt")
-        assert len(gcs) > 100
-        print(gcs[190].name)
+def pipe_line_insert_row_db(str_row, db_insert_fn):
+    """overview pipline """
+    m.transform(db_insert_fn)(
+        m.transform(raw_to_obj)(m.Monad(str_row))
+    )
