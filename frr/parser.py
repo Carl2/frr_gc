@@ -11,6 +11,7 @@ from datetime import datetime
 import re
 from frr import monad as m
 
+
 log = logging.getLogger("FrrDbParser")
 log.setLevel(logging.DEBUG)
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -92,6 +93,23 @@ class GcRow:
         self.wkg = float(wkg.replace("@", "").replace("wkg", ""))
         self._effort = effort_str
 
+    def tabulate(self):
+        """Tabulate into fields."""
+        return [stringify(self.table), stringify(self.frhc), stringify(self.gender),
+                stringify(self.name), stringify(self.team), stringify(self.stage),
+                self.watt, self.wkg, stringify(self.time)]
+
+    @staticmethod
+    def tabulate_columns():
+        """Return a list of columns corresponding to tabulate fields."""
+        return ["origin", "frhc", "gender", "name", "team", "stage", "watt", "wkg", "time"]
+
+
+
+
+def stringify(value):
+    """Convert into a string."""
+    return f"\"{value}\""
 ###############################################################################
 #                            Database functionality                           #
 ###############################################################################
@@ -151,13 +169,14 @@ def open_txt_file(filename):
 # raw -> Obj -> inser_db
 ###############################################################################
 
-def raw_to_obj(raw_str):
-    return m.Monad( GcRow(raw_str) )
+def raw_to_tab(raw_str):
+    return GcRow(raw_str).tabulate()
 
 
 
-def pipe_line_insert_row_db(str_row, db_insert_fn):
+def pipe_line_insert_row_db(*,rows, formatter ,db_insert_fn):
     """overview pipline """
-    m.transform(db_insert_fn)(
-        m.transform(raw_to_obj)(m.Monad(str_row))
-    )
+    objs = [raw_to_tab(rider_row) for rider_row in rows]
+    format_exec_str=formatter(objs)
+    log.debug("insert {}".format(format_exec_str))
+    db_insert_fn(format_exec_str)

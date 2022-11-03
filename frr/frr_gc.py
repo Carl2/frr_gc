@@ -39,7 +39,8 @@ class Rider:
                                                 time.strftime(TIME_FORMAT, self.time))
 
     def tabulate(self):
-        """
+        """Return a list of tabulated values
+
         Tabulated Rider
         """
         table = [self.table, self.frhc, self.gender, self.name, self.team,
