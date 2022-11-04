@@ -13,7 +13,7 @@ from frr import monad as m
 
 
 log = logging.getLogger("FrrDbParser")
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.WARNING)
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 
@@ -83,7 +83,13 @@ class GcRow:
             log.error(f"Parse error \"{e}\" {s_time_str}")
             self._time = "00:00:00.00000"
 
+    @property
+    def name(self):
+        return self._name
 
+    @name.setter
+    def name(self, str_name):
+        self._name = str_name.replace('\'','')
 
     @property
     def effort(self):
@@ -184,6 +190,13 @@ def raw_to_tab(raw_str):
 def pipe_line_insert_row_db(*,rows, formatter ,db_insert_fn):
     """overview pipline """
     objs = [raw_to_tab(rider_row) for rider_row in rows]
+
+    def not_none(obj):
+        print("NONE")
+        return obj is not None
+
+
+    filter(not_none, objs)
     format_exec_str=formatter(objs)
-    log.debug("insert {}".format(format_exec_str))
+    #log.debug("insert {}".format(format_exec_str))
     db_insert_fn(format_exec_str)

@@ -33,10 +33,14 @@ def read_raw_file(file_name):
     return rows
 
 
+
+
+
+
 def main():
     arg_parse = parse_arguments()
     rows = read_raw_file(arg_parse.frr_text_file)
-    riders = [fp.GcRow(row) for row in rows]
+    #riders = [fp.GcRow(row) for row in rows[0:5]]
 
     handler = create_db_file(DB_FILE)
     #rider1 = fp.GcRow(test_str)
@@ -45,11 +49,19 @@ def main():
     table_create_fn = create_table_fn(handler.cursor())
     #rows = [test_str, test_str2]
 
+
     try:
         table_create_fn(column_names=fp.GcRow.tabulate_columns(), table_name="riders")
-        fp.pipe_line_insert_row_db(rows=rows,
-                                   formatter=insert_formatter_fn,
-                                   db_insert_fn=db_exec(handler=handler.cursor()))
+        stop = 0
+        for var in range(0, len(rows),200):
+            stop = var +200-1
+            print(f"{var} {stop:15} ")
+            fp.pipe_line_insert_row_db(rows=rows[var:stop],
+                                       formatter=insert_formatter_fn,
+                                       db_insert_fn=db_exec(handler=handler.cursor()))
+
+
+
 
         handler.commit()
     except Exception as E:

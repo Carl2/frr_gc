@@ -3,7 +3,7 @@ import sqlite3
 import logging
 
 log = logging.getLogger("frr/sql_db")
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.WARNING)
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 class SqlDb:
@@ -83,17 +83,20 @@ def insert_formatter(*,column_names, table_name):
     """
     table_columns = ",".join(column_names)
     header=f"INSERT INTO {table_name} VALUES"
-    log.debug(f"\"{header}\"")
+    #log.debug(f"\"{header}\"")
     # TODO: consider using ','.joint(obj_list)
     def db_insert_values(objs_list):
         """A list of list of things to be added.
         [["a","b"],["c","d"]]
         """
+        command = None
+        if len(objs_list) == 0:
+            log.error(f"EMPTY OBJ {objs_list}")
+        else:
+            row_list = [",".join(map(str,row)) for row in objs_list]
+            value_list = [f"({obj})" for obj in row_list]
 
-        row_list = [",".join(map(str,row)) for row in objs_list]
-        value_list = [f"({obj})" for obj in row_list]
-
-        command = header + ",".join(value_list) + ";"
-        log.debug(f"Gen: {command}")
+            command = header + ",".join(value_list) + ";"
+            log.debug(f"Gen: {command}")
         return command
     return db_insert_values
