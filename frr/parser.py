@@ -74,8 +74,15 @@ class GcRow:
     @time.setter
     def time(self, time_str):
         """Set time variable."""
-        log.debug("timestr: <{}>".format(time_str))
-        self._time = datetime.strptime(time_str, self.TIME_FORMAT)
+        s_time_str = time_str.strip()
+        log.debug("timestr: <{}>".format(s_time_str))
+        try:
+
+            self._time = datetime.strptime(s_time_str, self.TIME_FORMAT)
+        except Exception as e:
+            log.error(f"Parse error \"{e}\" {s_time_str}")
+            self._time = "00:00:00.00000"
+
 
 
     @property
@@ -102,14 +109,14 @@ class GcRow:
     @staticmethod
     def tabulate_columns():
         """Return a list of columns corresponding to tabulate fields."""
-        return ["origin", "frhc", "gender", "name", "team", "stage", "watt", "wkg", "time"]
+        return ["origin TEXT", "frhc TEXT", "gender TEXT", "name TEXT", "team TEXT", "stage TEXT", "watt INTEGER", "wkg REAL", "time TEXT"]
 
 
 
 
 def stringify(value):
     """Convert into a string."""
-    return f"\"{value}\""
+    return f"\'{value}\'"
 ###############################################################################
 #                            Database functionality                           #
 ###############################################################################

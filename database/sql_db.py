@@ -9,18 +9,20 @@ logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S
 class SqlDb:
     DB_INSERT_FMT = r"""INSERT INTO {{table}} ({% for item in columns -%}
       {{item}} {{", " if not loop.last else ""}}
-    {%- endfor %})
-    VALUES {{values}};
+    {%- endfor %}) VALUES {{values}};
     """
 
+
     DB_VALUE_FIELD = r"""
-    {% for row in values -%}
-         ({% for field in row -%}
-           {{field}} {{ ", " if not loop.last else "" }}
-         {%- endfor %})
-    {{ ", " if not loop.last else "" }}
-    {%- endfor %}
-    """
+{%for val in values -%}{{val}} {{ ", " if not loop.last else "" }} {%- endfor %}"""
+    # DB_VALUE_FIELD = r"""
+    # {% for row in values -%}
+    #      ({% for field in row -%}
+    #        {{field}} {{ ", " if not loop.last else "" }}
+    #      {%- endfor %})
+    # {{ ", " if not loop.last else "" }}
+    # {%- endfor %}
+    # """
 
     insert_tmpl = Template(DB_INSERT_FMT)
     insert_value_tmpl = Template(DB_VALUE_FIELD)
@@ -43,12 +45,12 @@ def create_table_fn(db_handler):
     """
     def create_table(*,column_names, table_name,):
         column_str = ",".join(column_names)
-        str_create = "CREATE TABLE {}({})".format( table_name, column_str)
+        str_create = f"CREATE TABLE {table_name}({column_str})"
         log.debug("Create Table str: \"" +str_create + "\"")
         try:
             db_handler.execute(str_create)
-        except Exception:
-            log.critical("could not create table")
+        except Exception as E:
+            log.critical(f"could not create table {E}")
 
     return create_table
 
@@ -61,13 +63,15 @@ def db_exec(*, handler):
     handler -- Database handler
     """
     def exec_db(insert_str):
-        log.debug("About to insert {}".format(insert_str))
+        log.debug(f"About to insert \"{insert_str}\"")
         try:
-            db_handler.execute(insert_str)
-        except:
-            log.critical("DB Execute failed")
+            handler.execute(insert_str)
+        except Exception as e:
+            log.critical(f"DB Execute {e} failed with line\n\"{insert_str}\"")
 
     return exec_db
+
+
 
 
 def insert_formatter(*,column_names, table_name):
@@ -77,19 +81,19 @@ def insert_formatter(*,column_names, table_name):
     column_names -- List of column names
     table_name -- table name
     """
+    table_columns = ",".join(column_names)
+    header=f"INSERT INTO {table_name} VALUES"
+    log.debug(f"\"{header}\"")
     # TODO: consider using ','.joint(obj_list)
     def db_insert_values(objs_list):
         """A list of list of things to be added.
         [["a","b"],["c","d"]]
         """
-        value_data = {
-            "values": objs_list
-        }
-        values_str = SqlDb.insert_value_tmpl.render(value_data)
-        header = {
-            "table": table_name,
-            "columns": column_names,
-            "values": values_str
-        }
-        return SqlDb.insert_tmpl.render(header)
+
+        row_list = [",".join(map(str,row)) for row in objs_list]
+        value_list = [f"({obj})" for obj in row_list]
+
+        command = header + ",".join(value_list) + ";"
+        log.debug(f"Gen: {command}")
+        return command
     return db_insert_values
