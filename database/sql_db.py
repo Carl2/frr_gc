@@ -30,7 +30,7 @@ class SqlDb:
 ###############################################################################
 #                            Database functionality                           #
 ###############################################################################
-def create_db_file(new_db_file):
+def open_db_file(new_db_file):
     """
     Keyword Arguments:
     new_db_file -- sqlite database file
