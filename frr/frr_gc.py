@@ -1,10 +1,12 @@
 #!/usr/bin/env python
-
+"""
+Each row becomes a Rider , maybe the naming is wrong.
+"""
 import re
 import time
 
 
-
+TIME_FORMAT="%H:%M:%S"
 
 class Rider:
 
@@ -30,14 +32,20 @@ class Rider:
 
 
     def __str__(self):
-        return "{} {} {} {} {} {} {} {}".format(self.table,self.frhc,self.gender,self.name,self.team,self.stage,self.effort, self.time)
+        return "{} {} {} {} {} {} {} {}".format(self.table, self.frhc,
+                                                self.gender, self.name,
+                                                self.team, self.stage,
+                                                self.effort,
+                                                time.strftime(TIME_FORMAT, self.time))
 
     def tabulate(self):
-        """
+        """Return a list of tabulated values
+
         Tabulated Rider
         """
         table = [self.table, self.frhc, self.gender, self.name, self.team,
-                 self.stage, self.effort, self.time, self.watt, self.wkg]
+                 self.stage, self.effort, time.strftime(TIME_FORMAT, self.time),
+                 self.watt, self.wkg]
         return table
 
 
@@ -109,10 +117,9 @@ class Gc_row:
 class TableType:
     GC = 0
 
-
-
     @staticmethod
     def get_parser(row_type):
+        "Return a parser function for a specific Row."
         if row_type == TableType.GC:
             return Gc_row.row_parser
 

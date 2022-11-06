@@ -1,13 +1,12 @@
-import ipdb
+#import ipdb
 import time
-from tabulate import tabulate
 import functools
-
+from tabulate import tabulate
 
 class TourRider:
 
     def __init__(self, stage_rider):
-        "docstring"
+        """docstring"""
         self.name = stage_rider.name
         self.stages = [stage_rider]
 
@@ -25,6 +24,14 @@ class TourRider:
             self.stages.append(stage_rider)
         else:
             print("{} Alread has a stage #{}".format(self.name, stage_rider.stage))
+
+    def get_rider_from_stage(self, stage_name):
+        """Return rider for a specific stage
+        Keyword Arguments:
+        stage_name -- The stage name,
+        """
+        return next(x for x in self.stages if x.stage == stage_name)
+
 
 
     def __str__(self):
@@ -70,6 +77,29 @@ def create_tour_rider(rider, dic):
     return dic
 
 
+def add_rider_to_stage(stage_dic,tour_rider,stage):
+    """
+    Keyword Arguments:
+    stage_dic  -- dictionary to use
+    tour_rider -- Rider to add
+    stage      -- stage name
+    """
+    if stage in stage_dic:
+        stage_dic[stage].append(tour_rider)
+    else:
+        stage_dic[stage] = [tour_rider]
+    return stage_dic
+
+
+def create_stage_dic(stage_dic, tour_rider):
+    """
+    Keyword Arguments:
+    dic        -- Dictionary to use.
+    tour_rider -- TourRider
+    """
+    [add_rider_to_stage(stage_dic, tour_rider, stage.stage) for stage in tour_rider.stages ]
+
+
 def create_tour(list_stage_riders):
     """
     Keyword Arguments:
@@ -77,9 +107,31 @@ def create_tour(list_stage_riders):
 
     some of the riders are extracted multiple times
     """
-    dic = {}
-    [create_tour_rider(rider, dic) for rider in list_stage_riders]
-    return dic
+
+    name_dic = {}
+    stage_dic = {}
+    [create_tour_rider(rider, name_dic) for rider in list_stage_riders]
+    [create_stage_dic(stage_dic, tour_rider) for (name, tour_rider) in name_dic.items() ]
+    return (name_dic,stage_dic)
+
+
+def sort_by_time(rider):
+    """
+    Keyword Arguments:
+    rider -- rider to be sorted
+    """
+    return rider.time
+
+
+def create_position_list(stage_name, stage_dict):
+    """
+    Keyword Arguments:
+    stage_name -- Which stage are we processing
+    stage_dict -- dictionary with stage and TourRiders.
+    """
+    list_of_all_riders_for_stage = [rider.get_rider_from_stage(stage_name)
+                                    for rider in stage_dict[stage_name]]
+    return sorted(list_of_all_riders_for_stage, key=sort_by_time)
 
 
 
@@ -88,14 +140,18 @@ def main():
     tbl=[
         ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 1, "410w @4.10wkg", "00:45:04.294"],
         ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 1, "410w @4.10wkg", "00:45:04.294"],
-        ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 2, "410w @4.10wkg", "00:45:04.294"],
+        ["GC", "GC-GHT", "-M", "Ian Coveny", "CRCAF - FoundationNation", 2, "410w @4.20wkg", "01:45:04.294"],
         ["GC", "GC-GHT", "-M", "Patrick Caisse", "LWATT - MWoFosCC", 1, "314w @4.10wkg", "00:45:14.044"],
-        ["GC", "GC-GHT", "-M", "Jason Bridges", "RELENTLESS - RELENTLESS - LETOUR", 1, "336w @4.10wkg", "00:45:15.217"]
+        ["GC", "GC-GHT", "-M", "Jason Bridges", "RELENTLESS - RELENTLESS - LETOUR", 1, "336w @4.10wkg", "00:45:15.217"],
+        ["GC", "GC-GHT", "-M", "Jason Bridges", "RELENTLESS - RELENTLESS - LETOUR", 2, "336w @4.10wkg", "00:45:15.217"]
     ]
 
     stage_riders = [frr_gc.table_parser(row, frr_gc.TableType.GC) for row in tbl]
-
-    create_tour(stage_riders)
+    name_dict, stage_dict = create_tour(stage_riders)
+    list_a = create_position_list(2, stage_dict)
+    #list_a.sort(key=sort_by_time)
+    print(len(list_a))
+    print(tabulate([rider.tabulate() for rider in list_a]))
 
 
 if __name__ == '__main__':

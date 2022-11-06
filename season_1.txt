@@ -1,0 +1,5 @@
+GC      GC-CAP  -M      Mirco Lupinetti         FRR - Spectre   1       369w @5.90wkg   00:38:21.162
+GC      GC-CAP  -M      Dan Groom       RAVE - RAVE NJINGA      1       356w @5.90wkg   00:38:34.349
+GC      GC-CAP  -M      Frank Wachter   WATTFAB - WATTFAB - LETOUR      1       416w @5.90wkg   00:38:53.017
+GC      GC-CAP  -M      Anders Olsson   eSRT - Perseus  1       355w @5.00wkg   00:40:19.362
+GC      GC-CRP  -F      Alice Lethbridge        SOCKS4W - WattsUnleashed        1       280w @4.30wkg   00:45:04.793
