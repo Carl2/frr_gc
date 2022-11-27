@@ -1,0 +1,631 @@
+GC      GC-CAP  -M      Adam Otstot     RELENTLESS - Cobra Kai  1       329w @3.90wkg   01:17:09.923
+GC      GC-CAP  -M      Walter Simon    SWM - SWM - LETOUR      1       318w @4.20wkg   01:17:12.362
+GC      GC-CAP  -M      Meyckeens Sébastien     HEX - Le Tour   1       299w @4.60wkg   01:17:12.497
+GC      GC-CAP  -M      Bastian von Hayn        TALENTF - Talent:frei   1       323w @4.00wkg   01:17:12.735
+GC      GC-CAP  -M      Yoann Deldossi  HEX - Le Tour   1       316w @4.20wkg   01:17:12.800
+GC      GC-CAP  -M      Rasmus Raben    ABR - ABR Bloobo webdesign      1       363w @4.50wkg   01:17:12.875
+GC      GC-CAP  -M      Bastin Maxime   FFZ - FFZ Spartiate     1       292w @4.40wkg   01:17:13.393
+GC      GC-CAP  -M      Dan Groom       RAVE - RAVE NJINGA      1       315w @5.00wkg   01:17:13.700
+GC      GC-CAP  -M      mickael plantureux      HEX - Le Tour   1       280w @4.30wkg   01:17:14.035
+GC      GC-CAP  -M      Nathan Miller   RELENTLESS - Cobra Kai  1       382w @3.80wkg   01:17:14.097
+GC      GC-CAP  -M      Danies Camille  HEX - Le Tour   1       266w @4.50wkg   01:17:14.118
+GC      GC-CAP  -M      Maxime Bernard  FFZ - FFZ Spartiate     1       270w @3.90wkg   01:18:44.464
+GC      GC-CAP  -M      J. Carton       TEAMCLS - Équipe Orange         1       276w @4.30wkg   01:18:44.906
+GC      GC-CAP  -M      Jan Lammers     TALENTF - Talent:frei   1       311w @4.10wkg   01:18:44.965
+GC      GC-CAP  -M      Travis Gatesman         RELENTLESS - Cobra Kai  1       378w @4.00wkg   01:18:45.169
+GC      GC-CAP  -M      Ian De Juncker  BAKPDL - BP1    1       281w @4.10wkg   01:18:45.535
+GC      GC-CAP  -M      Sebastien Revendeur DUCASSE     FFZ - FFZ Spartiate     1       305w @4.60wkg   01:18:46.300
+GC      GC-CAP  -M      Mathias Kemnitz         TALENTF - Talent:frei   1       305w @3.90wkg   01:18:46.829
+GC      GC-CAP  -M      Andrew Alderson         FRR - Thunderball       1       318w @3.90wkg   01:18:46.833
+GC      GC-CAP  -M      Matt Brandt     RELENTLESS - Cobra Kai  1       314w @4.10wkg   01:18:54.490
+GC      GC-CAP  -M      Graeme Hill     OTR - Unicorns  1       319w @4.70wkg   01:19:09.478
+GC      GC-CAP  -M      Paul Kearney    TEAMCLS - Équipe Orange         1       344w @4.20wkg   01:19:09.505
+GC      GC-CAP  -M      Rinus Verhelle  TEAMCLS - Équipe Orange         1       287w @4.00wkg   01:19:09.528
+GC      GC-CAP  -M      André Reinlein  TALENTF - Talent:frei   1       313w @4.00wkg   01:19:09.649
+GC      GC-CAP  -M      Miguel Amâncio  FRR - Thunderball       1       287w @4.10wkg   01:19:10.158
+GC      GC-CAP  -M      Brian Bishop    OTR - Unicorns  1       355w @4.40wkg   01:19:10.788
+GC      GC-CAP  -M      Werner Weckx    WLECOL - Tour Britannia         1       365w @4.90wkg   01:19:45.899
+GC      GC-CAP  -M      Christian Grupp         TALENTF - Talent:frei   1       356w @3.60wkg   01:19:58.769
+GC      GC-CAP  -M      Mark Talbot     COALITION - Coalition United    1       309w @3.70wkg   01:19:59.874
+GC      GC-CAP  -M      Felix Gauthier  OPT - Velo Optimum      1       318w @4.10wkg   01:19:59.930
+GC      GC-CAP  -M      Cedric RICHARD  HEX - Le Tour   1       308w @4.20wkg   01:20:00.544
+GC      GC-CAP  -M      Petar Dashev    FRR - Skyfall   1       293w @4.20wkg   01:20:00.810
+GC      GC-CAP  -M      Peter Murray    WLECOL - Tour Britannia         1       361w @4.40wkg   01:20:01.350
+GC      GC-CAP  -M      Ed Harris       TFC - TFC Harriers      1       360w @4.20wkg   01:20:21.689
+GC      GC-CAP  -M      Christian Moxon         WLECOL - Tour Britannia         1       298w @3.80wkg   01:20:41.155
+GC      GC-CAP  -M      JORDI FERNANDEZ GARCIA  TBW - TBW Britannia     1       281w @4.10wkg   01:21:00.993
+GC      GC-CAP  -M      Stephen Corbyn  VELOS - Velosiraptors   1       340w @4.10wkg   01:21:02.957
+GC      GC-CAP  -M      Anthony Hepworth        OPT - Velo Optimum      1       319w @3.60wkg   01:21:20.494
+GC      GC-CAP  -M      Andreas Andersson       eSRT - Perseus  1       333w @3.90wkg   01:21:20.640
+GC      GC-CAP  -M      Gattlen Sébastien       FFZ - FFZ Spartiate     1       343w @4.60wkg   01:21:20.651
+GC      GC-CAP  -M      Arend Cocquyt   BAKPDL - BP1    1       289w @3.90wkg   01:21:22.989
+GC      GC-CAP  -M      Sammy Knockaert         FRR - Skyfall   1       314w @3.90wkg   01:21:23.393
+GC      GC-CAP  -M      RC Ivany        FEARLESS - Le Tour      1       269w @3.80wkg   01:21:23.775
+GC      GC-CAP  -M      Francis Cayouette       5W4T - 5.W.4.T  1       327w @3.80wkg   01:21:23.915
+GC      GC-CAP  -M      Andrew Dinsmore         TFC - TFC Harriers      1       275w @3.80wkg   01:21:23.943
+GC      GC-CAP  -M      Kalle Kadens    FRR - Skyfall   1       261w @4.40wkg   01:21:24.340
+GC      GC-CAP  -M      Charles-Olivier Laporte         OPT - Velo Optimum      1       294w @4.00wkg   01:21:24.364
+GC      GC-CAP  -M      juan    WLBB - WLBB Racing Team         1       289w @4.40wkg   01:21:25.706
+GC      GC-CAP  -M      Sebastien Perreault     5W4T - 5.W.4.T  1       268w @3.70wkg   01:21:25.758
+GC      GC-CAP  -M      Connor Pearce   FRR - Skyfall   1       316w @4.30wkg   01:22:00.799
+GC      GC-CAP  -M      Thomas Davison  RELENTLESS - Cobra Kai  1       347w @4.60wkg   01:22:20.859
+GC      GC-CAP  -M      Joe Ricci       RELENTLESS - Cobra Kai  1       245w @3.90wkg   01:22:37.676
+GC      GC-CAP  -M      Duncan Johnson  OTR - Goblins   1       302w @3.80wkg   01:22:50.499
+GC      GC-CAP  -M      Nate Silva      COALITION - Coalition United    1       349w @3.90wkg   01:22:51.477
+GC      GC-CAP  -M      Hannes Hamberger        FRR - Spectre   1       276w @4.00wkg   01:22:52.798
+GC      GC-CAP  -M      Jake Saunders   RELENTLESS - Cobra Kai  1       317w @3.60wkg   01:22:56.978
+GC      GC-CAP  -M      Greg Morgan     FRR - Spectre   1       314w @3.90wkg   01:24:04.034
+GC      GC-CAP  -M      Gustav Lindqvist        FRR - Spectre   1       250w @3.60wkg   01:24:40.175
+GC      GC-CAP  -M      Lorenzo Randazzo        SST - SST - LETOUR      1       290w @4.20wkg   01:24:41.245
+GC      GC-CAP  -M      Andy Besanko    FRR - Skyfall   1       266w @3.90wkg   01:24:41.729
+GC      GC-CAP  -M      Jon Werme       eSRT - Perseus  1       264w @3.40wkg   01:24:55.463
+GC      GC-CAP  -M      Mattias Wahlbeck        eSRT - Perseus  1       296w @3.30wkg   01:24:55.965
+GC      GC-CAP  -M      Jonathan Blomqvist      eSRT - Perseus  1       296w @3.60wkg   01:25:02.454
+GC      GC-CAP  -M      Michel Rivard   5W4T - 5.W.4.T  1       278w @3.70wkg   01:25:32.702
+GC      GC-CAP  -M      Josh Harris     TEAM NZAUS - Black & Gold       1       281w @3.90wkg   01:25:57.430
+GC      GC-CAP  -M      Cristofer C Ruggeri     SST - SST - LETOUR      1       243w @3.80wkg   01:26:20.565
+GC      GC-CAP  -M      James Bowtell   CRCAF - FoundationNation        1       295w @3.50wkg   01:26:34.562
+GC      GC-CAP  -M      Amador Mateo    TBW - TBW Britannia     1       279w @3.60wkg   01:27:11.244
+GC      GC-CAP  -M      Jared Benney    ABR - ABR Bloobo webdesign      1       367w @3.50wkg   01:27:22.321
+GC      GC-CAP  -M      Charles Asselin         OPT - Velo Optimum      1       318w @3.80wkg   01:28:10.390
+GC      GC-CAP  -M      Jerome Comtois-Urbain   OPT - Velo Optimum      1       272w @3.70wkg   01:28:10.630
+GC      GC-CAP  -M      Hugues Joannis  5W4T - 5.W.4.T  1       282w @3.60wkg   01:28:23.572
+GC      GC-CAP  -M      Tyler C Waldron         DIRT - DEVILS   1       296w @3.60wkg   01:29:53.189
+GC      GC-CRP  -M      Jakob Wilson    RELENTLESS - Cobra Kai  1       315w @3.70wkg   01:18:44.635
+GC      GC-CRP  -M      Kris Poole      FRR - Skyfall   1       290w @3.70wkg   01:18:44.928
+GC      GC-CRP  -M      Joseph Shields  RELENTLESS - Cobra Kai  1       324w @3.60wkg   01:18:45.627
+GC      GC-CRP  -M      Matthias Seismann       TALENTF - Talent:frei   1       344w @3.80wkg   01:18:47.022
+GC      GC-CRP  -M      Schwaiger Christian     SWM - SWM - LETOUR      1       306w @3.90wkg   01:19:59.827
+GC      GC-CRP  -M      Taylor Gonsoulin        OTR - Goblins   1       352w @4.30wkg   01:20:24.589
+GC      GC-CRP  -M      Nico Peller     KIRCHMAIR - KIRCHMAIR e-Cycling         1       301w @3.70wkg   01:20:40.993
+GC      GC-CRP  -M      Jeremie Deroo   FRR - Thunderball       1       272w @3.70wkg   01:20:42.322
+GC      GC-CRP  -M      Unai Balenciaga         EVOLUTION - EVOLUTION - LETOUR  1       275w @3.90wkg   01:20:42.488
+GC      GC-CRP  -M      Bruno Passos    TugaZ - Faial   1       309w @4.10wkg   01:20:43.744
+GC      GC-CRP  -M      Nick Salentin   TALENTF - Talent:frei   1       311w @3.70wkg   01:20:48.321
+GC      GC-CRP  -M      Domenik Rath    KIRCHMAIR - KIRCHMAIR e-Cycling         1       297w @3.60wkg   01:21:20.663
+GC      GC-CRP  -M      Siegfried Pfeifer       SWM - SWM - LETOUR      1       291w @3.80wkg   01:21:20.741
+GC      GC-CRP  -M      Christian Deschênes     5W4T - 5.W.4.T  1       271w @3.70wkg   01:21:20.791
+GC      GC-CRP  -M      Mike Ellington  Race3R - WASP   1       257w @3.70wkg   01:21:21.107
+GC      GC-CRP  -M      Auduberteau Thomas      FFZ - FFZ Spartiate     1       283w @3.60wkg   01:21:21.750
+GC      GC-CRP  -M      Tobias Schmitt  COALITION - Coalition United    1       314w @3.80wkg   01:21:22.400
+GC      GC-CRP  -M      Francesco Mondelli      COALITION - Coalition United    1       284w @3.50wkg   01:21:22.611
+GC      GC-CRP  -M      Alden Basmajian         RELENTLESS - Cobra Kai  1       291w @4.00wkg   01:21:22.917
+GC      GC-CRP  -M      Alexandre Doyon         OPT - Velo Optimum      1       281w @3.60wkg   01:21:22.932
+GC      GC-CRP  -M      Luke Marshall   COALITION - Coalition United    1       291w @3.60wkg   01:21:24.269
+GC      GC-CRP  -M      Paul Buckland   RELENTLESS - Cobra Kai  1       331w @3.70wkg   01:21:24.425
+GC      GC-CRP  -M      Oliver Birg     EVOLUTION - EVOLUTION - LETOUR  1       305w @3.80wkg   01:21:24.547
+GC      GC-CRP  -M      Carl FrÃ©chette         OPT - Velo Optimum      1       325w @3.60wkg   01:21:24.822
+GC      GC-CRP  -M      Jin Yamamoto    COALITION - Coalition United    1       262w @3.80wkg   01:21:25.484
+GC      GC-CRP  -M      Elton Judd      TBR - JumboVisma        1       357w @3.90wkg   01:22:00.982
+GC      GC-CRP  -M      Jason ONeill    RELENTLESS - Cobra Kai  1       305w @3.40wkg   01:22:37.756
+GC      GC-CRP  -M      Michiel Balcaen         COALITION - Coalition United    1       252w @3.90wkg   01:22:38.432
+GC      GC-CRP  -M      Ramón Sánchez Rubio     HISP - HISP - LETOUR    1       259w @4.10wkg   01:22:39.719
+GC      GC-CRP  -M      Jos Medema      VELOS - Velosiraptors   1       359w @3.80wkg   01:22:46.478
+GC      GC-CRP  -M      Chris Pearce    FRR - Spectre   1       293w @3.90wkg   01:22:49.688
+GC      GC-CRP  -M      Ewoud Tjassens Keiser   PCH - Le Tour   1       280w @3.40wkg   01:22:50.584
+GC      GC-CRP  -M      Joe Urbanski    OTR - Unicorns  1       226w @3.90wkg   01:22:50.792
+GC      GC-CRP  -M      Mick Boekhoff   BAKPDL - BP1    1       278w @3.30wkg   01:22:51.836
+GC      GC-CRP  -M      Jason Bridges   RELENTLESS - Cobra Kai  1       312w @3.60wkg   01:22:52.436
+GC      GC-CRP  -M      Ronald Damme    DIRT - DEVILS   1       344w @3.60wkg   01:22:52.914
+GC      GC-CRP  -M      Christian Baum  SWM - SWM - LETOUR      1       262w @3.90wkg   01:22:53.244
+GC      GC-CRP  -M      Jason Drummond  USMES - Britannia       1       276w @3.50wkg   01:23:44.459
+GC      GC-CRP  -M      Martin Cote     LWATT - Phoenix         1       275w @3.70wkg   01:23:45.321
+GC      GC-CRP  -M      Philippe Hakier         5W4T - 5.W.4.T  1       296w @3.50wkg   01:24:39.724
+GC      GC-CRP  -M      Sebastien Desgagne      OPT - Velo Optimum      1       299w @3.60wkg   01:24:39.752
+GC      GC-CRP  -M      Sam Whittaker   ABR - ABR Bloobo webdesign      1       294w @3.40wkg   01:24:43.330
+GC      GC-CRP  -M      GIS     FFZ - FFZ Spartiate     1       281w @3.70wkg   01:24:56.363
+GC      GC-CRP  -M      Kevin Mullins   TT1 - TT1 - LETOUR      1       307w @3.60wkg   01:24:58.333
+GC      GC-CRP  -M      Diogo Leite     TugaZ - Faial   1       319w @3.70wkg   01:25:13.888
+GC      GC-CRP  -M      Pavel Morozov   EVOLUTION - EVOLUTION - LETOUR  1       262w @3.90wkg   01:25:15.837
+GC      GC-CRP  -M      John Rullen     WTRL - WTRL Dinos       1       306w @3.60wkg   01:25:24.163
+GC      GC-CRP  -M      Guillaume Lamy  OPT - Velo Optimum      1       253w @3.20wkg   01:25:33.097
+GC      GC-CRP  -M      Troy de Juncker         BAKPDL - BP1    1       236w @3.90wkg   01:25:34.902
+GC      GC-CRP  -M      Michael MacLennan       COALITION - Coalition United    1       275w @3.60wkg   01:25:36.274
+GC      GC-CRP  -M      Chris Cayford   VELOS - Velosiraptors   1       237w @3.80wkg   01:25:55.594
+GC      GC-CRP  -M      Cedrick Graham  OPT - Velo Optimum      1       279w @3.40wkg   01:26:01.474
+GC      GC-CRP  -M      Daniel Manalo   OTR - Bolts     1       298w @3.40wkg   01:26:02.524
+GC      GC-CRP  -M      Nat Walter      TBR - JumboVisma        1       282w @3.40wkg   01:26:19.474
+GC      GC-CRP  -M      Sylvain Lafrance        OPT - Velo Optimum      1       237w @3.40wkg   01:26:22.194
+GC      GC-CRP  -M      Raphael Caron Asselin   OPT - Velo Optimum      1       266w @3.40wkg   01:26:41.385
+GC      GC-CRP  -M      Matthew Ladd    COALITION - Coalition United    1       339w @4.00wkg   01:27:07.099
+GC      GC-CRP  -M      Tim Baldwin     FRR - Skyfall   1       311w @3.80wkg   01:27:34.074
+GC      GC-CRP  -M      Chris Benham    RELENTLESS - Cobra Kai  1       295w @3.30wkg   01:28:17.726
+GC      GC-CRP  -M      Jonathan Bisson         5W4T - 5.W.4.T  1       293w @3.30wkg   01:28:24.069
+GC      GC-CRP  -M      Muench Maximilian       SWM - SWM - LETOUR      1       314w @3.10wkg   01:28:54.042
+GC      GC-CRP  -M      Jacqué  FFZ - FFZ Spartiate     1       216w @3.60wkg   01:29:08.524
+GC      GC-CRP  -M      Phillip Hardaway        COALITION - Coalition United    1       270w @3.70wkg   01:29:50.944
+GC      GC-CRP  -M      Kyle Goudy      SOCKS4W - WattsUnleashed        1       238w @3.50wkg   01:30:21.626
+GC      GC-CRP  -M      Theo Calais     HEX - Le Tour   1       266w @3.20wkg   01:31:52.486
+GC      GC-CRP  -M      Bob Jones       FRR - Spectre   1       209w @3.40wkg   01:35:04.029
+GC      GC-CRP  -M      Karl Norris     ABR - ABR Bloobo webdesign      1       230w @3.10wkg   01:37:51.896
+GC      GC-CRP  -M      Stefan Faulkner         WLECOL - Tour Britannia         1       195w @2.90wkg   01:38:25.091
+GC      GC-GHT  -M      a.lex   TALENTF - Talent:frei   1       301w @3.60wkg   01:20:41.148
+GC      GC-GHT  -M      Mathew Bassett  COALITION - Coalition United    1       284w @3.70wkg   01:20:42.168
+GC      GC-GHT  -F      Alice Lethbridge        SOCKS4W - WattsUnleashed        1       258w @3.80wkg   01:21:21.585
+GC      GC-GHT  -M      Sandro LSZ      WATTFAB - WATTFAB - LETOUR      1       312w @3.60wkg   01:21:21.722
+GC      GC-GHT  -F      Cornelia Engström       SZ - SZ LOKE    1       212w @4.00wkg   01:21:22.248
+GC      GC-GHT  -F      Åsa Fast-Berglund       SZ - SZ LOKE    1       269w @4.10wkg   01:21:24.085
+GC      GC-GHT  -F      Beth Stoner     FRR - Spectre   1       242w @4.70wkg   01:21:25.181
+GC      GC-GHT  -M      MARTIN F JUUL   TBR - JumboVisma        1       350w @3.80wkg   01:22:00.655
+GC      GC-GHT  -M      Janne HÃ¶ijer Jakobsson         eSRT - Perseus  1       272w @3.40wkg   01:22:50.667
+GC      GC-GHT  -M      Martin RanefjÃ¤rd       SZ - SZ LOKE    1       313w @3.40wkg   01:22:50.688
+GC      GC-GHT  -M      David L Gabb    RELENTLESS - Cobra Kai  1       281w @3.60wkg   01:22:50.894
+GC      GC-GHT  -M      Thomas Schulz   CRCAF - FoundationNation        1       295w @3.50wkg   01:22:50.976
+GC      GC-GHT  -M      Matjaz Zupanic  Race3R - ACDC   1       302w @3.60wkg   01:22:51.058
+GC      GC-GHT  -M      Fredrik Ringström       SZ - SZ LOKE    1       284w @3.50wkg   01:22:51.453
+GC      GC-GHT  -M      Richard Watson  ABR - ABR Bloobo webdesign      1       317w @3.70wkg   01:22:51.619
+GC      GC-GHT  -F      Timea Cserhegyi         EVOLUTION - EVOLUTION - LETOUR  1       260w @3.70wkg   01:22:52.420
+GC      GC-GHT  -M      Neal Weatherley         OTR - Goblins   1       273w @3.50wkg   01:22:53.122
+GC      GC-GHT  -M      Piotr Olejnik   PCH - Le Tour   1       298w @3.60wkg   01:23:33.366
+GC      GC-GHT  -M      David Kowalski  COALITION - Coalition United    1       288w @3.60wkg   01:23:34.446
+GC      GC-GHT  -M      Mike robson     OTR - Bolts     1       259w @3.50wkg   01:23:43.694
+GC      GC-GHT  -M      Patrick Caisse  5W4T - 5.W.4.T  1       286w @3.40wkg   01:23:43.755
+GC      GC-GHT  -M      Jonathan Winward        FRR - Spectre   1       280w @3.40wkg   01:23:43.850
+GC      GC-GHT  -M      Robert Egelnor  SZ - SZ LOKE    1       292w @3.60wkg   01:23:44.089
+GC      GC-GHT  -M      Jon Meals       TFC - TFC Harriers      1       229w @3.70wkg   01:23:44.738
+GC      GC-GHT  -M      Alexandre Dumont        5W4T - 5.W.4.T  1       256w @3.60wkg   01:23:44.937
+GC      GC-GHT  -F      Catherine Paquet        5W4T - 5.W.4.T  1       236w @4.40wkg   01:23:45.457
+GC      GC-GHT  -M      Jeremy Chaix    5W4T - 5.W.4.T  1       299w @3.40wkg   01:23:46.372
+GC      GC-GHT  -M      Mikkel Staunsholm       RELENTLESS - Cobra Kai  1       292w @3.50wkg   01:23:48.379
+GC      GC-GHT  -M      Dave Garguilo   CRCAF - FoundationNation        1       278w @3.20wkg   01:24:37.671
+GC      GC-GHT  -M      Erik John       TFC - TFC Harriers      1       270w @3.10wkg   01:24:40.814
+GC      GC-GHT  -M      Rob Millar      OTR - Goblins   1       272w @3.30wkg   01:24:48.260
+GC      GC-GHT  -M      Andrew Maljaars         EVOLUTION - EVOLUTION - LETOUR  1       306w @3.60wkg   01:24:54.547
+GC      GC-GHT  -M      Joseph Anthony  RELENTLESS - Cobra Kai  1       302w @3.40wkg   01:24:55.155
+GC      GC-GHT  -M      Michael Totz    TALENTF - Talent:frei   1       289w @3.70wkg   01:24:55.331
+GC      GC-GHT  -M      Neil Atherton   COALITION - Coalition United    1       263w @3.60wkg   01:24:55.614
+GC      GC-GHT  -M      Matt Nelson     RELENTLESS - Cobra Kai  1       285w @3.50wkg   01:24:55.818
+GC      GC-GHT  -M      Calle Olsen     SZ - SZ LOKE    1       239w @3.60wkg   01:24:56.609
+GC      GC-GHT  -M      Andrew Wainwright       FRR - Thunderball       1       275w @3.60wkg   01:24:57.067
+GC      GC-GHT  -M      Chris Harnish   FRR - Spectre   1       240w @3.50wkg   01:24:57.091
+GC      GC-GHT  -M      Kenneth Söderberg       SZ - SZ LOKE    1       280w @3.50wkg   01:24:57.718
+GC      GC-GHT  -M      Ramon Belencoso         HISP - HISP - LETOUR    1       265w @3.70wkg   01:24:57.807
+GC      GC-GHT  -M      Frank Jordan    ALPENTVC - AVC-Hippos   1       257w @3.50wkg   01:24:58.841
+GC      GC-GHT  -M      Jens Schumann   WATTFAB - WATTFAB - LETOUR      1       224w @3.20wkg   01:25:13.780
+GC      GC-GHT  -M      Dennis 7B       EVOLUTION - EVOLUTION - LETOUR  1       306w @3.50wkg   01:25:13.942
+GC      GC-GHT  -M      Fred Vaughan    COALITION - Coalition United    1       281w @3.30wkg   01:25:32.396
+GC      GC-GHT  -M      Ryan McGee      FEARLESS - Le Tour      1       261w @3.30wkg   01:25:32.621
+GC      GC-GHT  -M      Alessandro Mesquita     OPT - Velo Optimum      1       268w @3.60wkg   01:25:33.276
+GC      GC-GHT  -M      Simon Daw       FRR - Skyfall   1       247w @3.40wkg   01:25:33.922
+GC      GC-GHT  -M      Oliver Kiefer   ALPENTVC - AVC-Hippos   1       247w @3.50wkg   01:25:35.754
+GC      GC-GHT  -M      Jonathan Morin  FRR - Spectre   1       253w @3.30wkg   01:25:40.119
+GC      GC-GHT  -M      Jasmin Marinelli        5W4T - 5.W.4.T  1       259w @3.40wkg   01:25:59.487
+GC      GC-GHT  -M      Jay Keteleers   WLECOL - Tour Britannia         1       291w @3.20wkg   01:26:00.710
+GC      GC-GHT  -M      Kieran Ronan    CRCAF - FoundationNation        1       340w @3.40wkg   01:26:01.732
+GC      GC-GHT  -M      Radosław Buchowiecki    PCH - Le Tour   1       295w @3.00wkg   01:26:02.401
+GC      GC-GHT  -M      Luis Ma Olivares        TBW - TBW Britannia     1       266w @3.20wkg   01:26:13.844
+GC      GC-GHT  -M      José Ángel Maicas       HISP - HISP - LETOUR    1       331w @3.20wkg   01:26:14.556
+GC      GC-GHT  -M      Oliver Tobian   ALPENTVC - AVC-Hippos   1       271w @3.50wkg   01:26:31.793
+GC      GC-GHT  -M      Julian Rampelmann       CRCAF - FoundationNation        1       281w @3.40wkg   01:26:31.938
+GC      GC-GHT  -M      Akihiro Shinki  PCH - Le Tour   1       235w @3.40wkg   01:26:32.655
+GC      GC-GHT  -F      Jen Moroz       OTR - Goblins   1       209w @3.90wkg   01:26:37.884
+GC      GC-GHT  -M      Andre Landry    5W4T - 5.W.4.T  1       262w @3.60wkg   01:26:42.058
+GC      GC-GHT  -M      Kenneth Cools   COALITION - Coalition United    1       245w @3.20wkg   01:26:42.309
+GC      GC-GHT  -M      ruben xiroko    TBW - TBW Britannia     1       257w @3.10wkg   01:26:42.668
+GC      GC-GHT  -M      Thomas Janka    TALENTF - Talent:frei   1       232w @3.60wkg   01:26:49.532
+GC      GC-GHT  -M      Anders PetersÃ©n        SZ - SZ LOKE    1       286w @3.40wkg   01:26:50.204
+GC      GC-GHT  -M      Philippe Ponsot         OPT - Velo Optimum      1       261w @3.40wkg   01:27:06.178
+GC      GC-GHT  -M      Josh Mahlandt   OTR - Unicorns  1       286w @3.60wkg   01:27:10.503
+GC      GC-GHT  -M      Pedro Nunes     TugaZ - Corvo   1       290w @3.20wkg   01:27:23.092
+GC      GC-GHT  -M      Julio JimÃ©nez  ABR - ABR Bloobo webdesign      1       275w @3.10wkg   01:27:23.474
+GC      GC-GHT  -M      Duane Hetland   DIRT - DEVILS   1       331w @2.90wkg   01:27:32.396
+GC      GC-GHT  -M      Alessandro campana      PCH - Le Tour   1       277w @3.60wkg   01:27:32.873
+GC      GC-GHT  -M      Ashley Lake     COALITION - Coalition United    1       324w @3.50wkg   01:27:32.905
+GC      GC-GHT  -M      Alex Wiseman    CRCAF - FoundationNation        1       322w @3.30wkg   01:27:33.196
+GC      GC-GHT  -M      Michael da Silva Gunther        CRYO-GEN - Lancelot     1       230w @3.30wkg   01:28:17.344
+GC      GC-GHT  -M      Luís Castro     TugaZ - Corvo   1       264w @3.30wkg   01:28:27.637
+GC      GC-GHT  -M      Alain St-Louis  5W4T - 5.W.4.T  1       254w @3.30wkg   01:28:30.000
+GC      GC-GHT  -F      Emilie Marsolais        OPT - Velo Optimum      1       210w @3.70wkg   01:28:43.094
+GC      GC-GHT  -M      Sergio Musso    SST - SST - LETOUR      1       270w @3.40wkg   01:29:00.610
+GC      GC-GHT  -M      Sean Hadden     ZSCOT - ZRScot Tiree    1       275w @3.50wkg   01:29:08.725
+GC      GC-GHT  -M      Kevin Walsh     DIRT - DEVILS   1       290w @3.20wkg   01:29:10.061
+GC      GC-GHT  -M      Laurent LeBel   5W4T - 5.W.4.T  1       248w @3.30wkg   01:29:12.388
+GC      GC-GHT  -M      Mikael Herling  eSRT - Perseus  1       262w @3.10wkg   01:29:14.828
+GC      GC-GHT  -M      Weber Mark      SWM - SWM - LETOUR      1       286w @3.10wkg   01:29:24.603
+GC      GC-GHT  -M      Pike Reardon    OTR - Bolts     1       261w @3.30wkg   01:29:29.847
+GC      GC-GHT  -M      Paul Knepper    WATTFAB - WATTFAB - LETOUR      1       259w @3.00wkg   01:30:03.826
+GC      GC-GHT  -M      Nico Damrat     ABR - ABR Bloobo webdesign      1       234w @3.40wkg   01:30:06.263
+GC      GC-GHT  -M      Mastellaro Moreno       SST - SST - LETOUR      1       250w @3.20wkg   01:30:06.434
+GC      GC-GHT  -M      Jonny Atkinson  CRYO-GEN - Lancelot     1       251w @3.40wkg   01:30:37.461
+GC      GC-GHT  -M      Andrew Rayner   EVOLUTION - EVOLUTION - LETOUR  1       259w @3.20wkg   01:30:46.191
+GC      GC-GHT  -M      Wendell         USMES - Britannia       1       295w @3.10wkg   01:30:46.503
+GC      GC-GHT  -M      Jason Bernstein         OTR - Unicorns  1       258w @3.10wkg   01:31:54.336
+GC      GC-GHT  -M      Francis McKinnon        OPT - Velo Optimum      1       291w @3.40wkg   01:31:58.322
+GC      GC-GHT  -M      hervé le cam    FFZ - FFZ Spartiate     1       227w @2.90wkg   01:32:17.410
+GC      GC-GHT  -M      Phil Swift      BAKPDL - BP1    1       269w @3.00wkg   01:32:38.712
+GC      GC-GHT  -M      Kasper Westphal Pedersen        RELENTLESS - Cobra Kai  1       281w @2.80wkg   01:33:05.587
+GC      GC-GHT  -M      V Dude  DIRT - DEVILS   1       250w @3.10wkg   01:34:12.149
+GC      GC-GHT  -M      David Higgins   TBR - JumboVisma        1       258w @2.90wkg   01:37:24.818
+GC      GC-GHT  -M      Benjamin Giard  OPT - Velo Optimum      1       239w @2.70wkg   01:39:39.390
+GC      GC-GHT  -M      Marc-Etienne Gagnon     OPT - Velo Optimum      1       221w @2.70wkg   01:40:18.286
+GC      GC-GHT  -M      James Powell    COALITION - Coalition United    1       194w @2.80wkg   01:44:56.959
+GC      GC-GHT  -F      Janica Ahl      SZ - SZ LOKE    1       123w @1.90wkg   02:10:27.991
+GC      GC-HAB  -M      Jon Telfer      FRR - Skyfall   1       337w @3.10wkg   01:24:39.488
+GC      GC-HAB  -M      Dave Husband    DIRT - DEVILS   1       299w @3.10wkg   01:24:41.121
+GC      GC-HAB  -M      Schneemann      TALENTF - Talent:frei   1       299w @3.10wkg   01:24:55.990
+GC      GC-HAB  -M      Niels Harbs     WATTFAB - WATTFAB - LETOUR      1       320w @3.10wkg   01:24:56.232
+GC      GC-HAB  -M      Ricky Klingvall         eSRT - Perseus  1       247w @3.30wkg   01:24:57.583
+GC      GC-HAB  -F      Claire Armstrong        TFC - TFC Storm         1       260w @3.80wkg   01:24:57.901
+GC      GC-HAB  -M      Bohdan Skudrzyk         WATTFAB - WATTFAB - LETOUR      1       269w @3.30wkg   01:25:16.785
+GC      GC-HAB  -M      Robert Spink    WLECOL - Tour Britannia         1       241w @3.20wkg   01:25:35.458
+GC      GC-HAB  -F      Morgan Cabot    REVO - REVO     1       243w @3.60wkg   01:26:01.895
+GC      GC-HAB  -M      Fabian H.       ABR - ABR Bloobo webdesign      1       311w @3.40wkg   01:26:02.418
+GC      GC-HAB  -F      Becca Ward      REVO - REVO     1       210w @3.50wkg   01:26:07.249
+GC      GC-HAB  -M      Ted Keeble      Race3R - ACDC   1       300w @3.30wkg   01:26:14.647
+GC      GC-HAB  -M      Richard Vale    Race3R - ACDC   1       276w @3.10wkg   01:26:14.899
+GC      GC-HAB  -M      RobertoPenedo   HISP - HISP - LETOUR    1       280w @3.20wkg   01:26:32.112
+GC      GC-HAB  -M      Lars Schrödel   ALPENTVC - AVC-Hippos   1       297w @3.00wkg   01:26:32.137
+GC      GC-HAB  -F      Alycia Staats   REVO - REVO     1       236w @3.60wkg   01:26:33.692
+GC      GC-HAB  -M      Hugo    TBW - TBW Britannia     1       244w @3.40wkg   01:26:41.022
+GC      GC-HAB  -M      Carl Murray     Race3R - ACDC   1       298w @3.20wkg   01:26:41.735
+GC      GC-HAB  -M      Maxime Turcotte         OPT - Velo Optimum      1       282w @3.40wkg   01:26:41.977
+GC      GC-HAB  -M      Ben Nickerson   COALITION - Coalition United    1       244w @3.20wkg   01:26:42.236
+GC      GC-HAB  -M      Dean hunt       ABR - ABR Bloobo webdesign      1       272w @3.20wkg   01:26:42.774
+GC      GC-HAB  -M      Jonathan Flavin         USMES - Britannia       1       240w @3.30wkg   01:26:43.245
+GC      GC-HAB  -M      Thomas Hebestreit       ALPENTVC - AVC-Hippos   1       257w @3.20wkg   01:26:44.530
+GC      GC-HAB  -F      Cat Haines      SOCKS4W - WattsUnleashed        1       229w @3.40wkg   01:26:44.683
+GC      GC-HAB  -M      Christian GroÃŸ         WLBB - WLBB Racing Team         1       261w @3.20wkg   01:26:45.994
+GC      GC-HAB  -F      Jenny Perle     WATTFAB - WATTFAB - LETOUR      1       240w @3.30wkg   01:26:47.343
+GC      GC-HAB  -M      Jesper Johansson        SZ - SZ LOKE    1       250w @3.40wkg   01:26:49.947
+GC      GC-HAB  -M      Ugo Lapierre    LWATT - Phoenix         1       283w @3.30wkg   01:26:50.747
+GC      GC-HAB  -M      Peter Sjostrom  ABR - ABR Bloobo webdesign      1       230w @3.70wkg   01:26:51.511
+GC      GC-HAB  -M      Ralph Matecki   FRR - Spectre   1       269w @3.50wkg   01:27:06.244
+GC      GC-HAB  -M      Peter Salt      RAVE - RAVE NJINGA      1       246w @3.30wkg   01:27:07.639
+GC      GC-HAB  -M      Jeffrey Janssen         OTR - Goblins   1       277w @3.40wkg   01:27:08.785
+GC      GC-HAB  -M      Simon East      OTR - Unicorns  1       309w @3.40wkg   01:27:11.801
+GC      GC-HAB  -M      Thomas Holzbein         TALENTF - Talent:frei   1       284w @3.20wkg   01:27:30.911
+GC      GC-HAB  -F      Anabela Narciso         TugaZ - Corvo   1       223w @3.90wkg   01:27:36.895
+GC      GC-HAB  -M      Christopher Booth       EVOLUTION - EVOLUTION - LETOUR  1       277w @3.40wkg   01:27:51.407
+GC      GC-HAB  -M      James Ranger    RELENTLESS - Cobra Kai  1       297w @3.10wkg   01:28:03.904
+GC      GC-HAB  -M      Frank Schweinheim       FRR - Thunderball       1       262w @3.40wkg   01:28:17.205
+GC      GC-HAB  -M      Albert Chan     OTR - Unicorns  1       271w @3.00wkg   01:28:18.534
+GC      GC-HAB  -F      Marie Rydne     SZ - SZ LOKE    1       238w @3.40wkg   01:28:18.772
+GC      GC-HAB  -M      Chris   WATTFAB - WATTFAB - LETOUR      1       297w @3.30wkg   01:28:20.818
+GC      GC-HAB  -M      Art Hotaka      DIRT - DEVILS   1       290w @3.30wkg   01:28:41.442
+GC      GC-HAB  -F      Mia Mawdsley    eSRT - Perseus  1       234w @3.90wkg   01:28:55.379
+GC      GC-HAB  -F      Sarah Bishop    OTR - Goblins   1       218w @3.60wkg   01:29:00.080
+GC      GC-HAB  -M      Jan van Leuverden       PCH - Le Tour   1       301w @3.30wkg   01:29:08.848
+GC      GC-HAB  -M      Luis Rosado     TugaZ - Pico    1       240w @3.20wkg   01:29:08.933
+GC      GC-HAB  -M      Steve Cambria   CRCAF - FoundationNation        1       269w @3.50wkg   01:29:11.997
+GC      GC-HAB  -M      Robert Armour   PCH - Le Tour   1       267w @3.20wkg   01:29:12.018
+GC      GC-HAB  -M      Nathan Joyce    ABR - ABR Bloobo webdesign      1       309w @3.30wkg   01:29:12.142
+GC      GC-HAB  -M      Kristin Moat    Race3R - WASP   1       247w @3.20wkg   01:29:12.523
+GC      GC-HAB  -M      Graeme Crane    ZSCOT - ZRScot Tiree    1       311w @3.00wkg   01:29:12.778
+GC      GC-HAB  -M      Sergio Cuesta   HISP - HISP - LETOUR    1       223w @3.20wkg   01:29:16.354
+GC      GC-HAB  -F      Sarah Olimb     ABR - ABR Bloobo webdesign      1       214w @3.80wkg   01:29:28.778
+GC      GC-HAB  -M      Jeff Tsang      OTR - Bolts     1       214w @3.50wkg   01:29:29.175
+GC      GC-HAB  -M      Adam Brannen    ABR - ABR Bloobo webdesign      1       243w @3.20wkg   01:29:31.595
+GC      GC-HAB  -M      Luc Cloutier    5W4T - 5.W.4.T  1       257w @3.20wkg   01:29:51.544
+GC      GC-HAB  -M      g isenbarg      USMES - Britannia       1       274w @3.30wkg   01:29:52.356
+GC      GC-HAB  -M      Brendan Parker  Race3R - WASP   1       268w @3.10wkg   01:30:03.304
+GC      GC-HAB  -M      Marcus Pfurtscheller    ALPENTVC - AVC-Hippos   1       278w @2.90wkg   01:30:06.168
+GC      GC-HAB  -M      frederic Giard  OPT - Velo Optimum      1       293w @3.20wkg   01:30:23.017
+GC      GC-HAB  -M      Thomas Scholz   RCP - RC Pfeil-Rebellunas       1       283w @3.30wkg   01:30:23.057
+GC      GC-HAB  -M      Dirk Seifried   ALPENTVC - AVC-Hippos   1       266w @3.10wkg   01:30:27.618
+GC      GC-HAB  -M      Graeme Findlay (HAB)    ZSCOT - ZRScot Tiree    1       248w @3.20wkg   01:30:36.925
+GC      GC-HAB  -M      Martin Grieger  ALPENTVC - AVC-Hippos   1       272w @3.00wkg   01:30:40.661
+GC      GC-HAB  -F      Anna Rogers     REVO - REVO     1       221w @3.30wkg   01:30:46.042
+GC      GC-HAB  -M      Joaquim Viegas  TugaZ - Faial   1       233w @3.40wkg   01:30:46.830
+GC      GC-HAB  -M      Frank Tattje    WATTFAB - WATTFAB - LETOUR      1       262w @3.20wkg   01:31:50.051
+GC      GC-HAB  -M      Cory Dams       RELENTLESS - Cobra Kai  1       305w @3.30wkg   01:31:52.944
+GC      GC-HAB  -M      Sam Mack        BPCC - BPCC - LETOUR    1       232w @3.00wkg   01:31:58.788
+GC      GC-HAB  -M      Danny Fritzsche         KIRCHMAIR - KIRCHMAIR e-Cycling         1       289w @3.00wkg   01:32:08.222
+GC      GC-HAB  -M      Julian Lacey    ABR - ABR Bloobo webdesign      1       253w @3.00wkg   01:32:08.872
+GC      GC-HAB  -M      Oli Stahl       RCP - RC Pfeil-Rebellunas       1       301w @3.10wkg   01:32:37.138
+GC      GC-HAB  -M      Guillaume Laforest      OPT - Velo Optimum      1       245w @2.90wkg   01:32:38.947
+GC      GC-HAB  -M      Casey Burton    OTR - Unicorns  1       217w @3.10wkg   01:32:40.126
+GC      GC-HAB  -M      Jürgen Wäger    WLBB - WLBB Racing Team         1       223w @2.90wkg   01:32:41.884
+GC      GC-HAB  -M      Simon Tuck      RELENTLESS - Cobra Kai  1       248w @3.10wkg   01:32:45.063
+GC      GC-HAB  -M      Ryan Manongdo   OTR - Bolts     1       212w @3.00wkg   01:32:54.218
+GC      GC-HAB  -M      Paul Peppard    CRYO-GEN - Lancelot     1       277w @3.00wkg   01:32:54.715
+GC      GC-HAB  -M      JJ      ABR - ABR Bloobo webdesign      1       229w @3.30wkg   01:33:06.609
+GC      GC-HAB  -M      RIJAN   HEX - Le Tour   1       264w @3.20wkg   01:33:07.011
+GC      GC-HAB  -M      Karsten Kröger  KIRCHMAIR - KIRCHMAIR e-Cycling         1       267w @3.30wkg   01:33:23.583
+GC      GC-HAB  -M      Tony Lo         EVOLUTION - EVOLUTION - LETOUR  1       234w @3.10wkg   01:33:28.946
+GC      GC-HAB  -M      Rene Benz       WATTFAB - WATTFAB - LETOUR      1       307w @2.90wkg   01:33:35.630
+GC      GC-HAB  -F      Pia Vakkilainen-Liegl   KIRCHMAIR - KIRCHMAIR e-Cycling         1       205w @3.30wkg   01:33:55.523
+GC      GC-HAB  -M      John fickling   WLECOL - Tour Britannia         1       218w @3.10wkg   01:34:04.607
+GC      GC-HAB  -M      Ryan Howard     BPCC - BPCC - LETOUR    1       251w @2.90wkg   01:34:08.917
+GC      GC-HAB  -M      Dany Foster     LWATT - Phoenix         1       251w @3.10wkg   01:34:09.872
+GC      GC-HAB  -M      Guillaume Letourneau    LWATT - Phoenix         1       246w @3.00wkg   01:34:11.313
+GC      GC-HAB  -M      david bird      WLECOL - Tour Britannia         1       216w @3.20wkg   01:34:23.478
+GC      GC-HAB  -M      stefano bortolot        SST - SST - LETOUR      1       264w @2.90wkg   01:34:56.283
+GC      GC-HAB  -F      Alison Kerr     ZSCOT - ZRScot Tiree    1       196w @3.30wkg   01:34:56.524
+GC      GC-HAB  -M      Mark Dowthwaite         FRR - Skyfall   1       259w @3.20wkg   01:35:06.573
+GC      GC-HAB  -M      Roy Imahara     BPCC - BPCC - LETOUR    1       209w @2.90wkg   01:35:06.676
+GC      GC-HAB  -M      Vasco   TugaZ - Corvo   1       203w @3.10wkg   01:35:07.443
+GC      GC-HAB  -M      Sergio Martin Amat      PCH - Le Tour   1       270w @3.10wkg   01:35:11.107
+GC      GC-HAB  -M      Eduardo Costa   TugaZ - Faial   1       210w @3.00wkg   01:35:11.196
+GC      GC-HAB  -M      Frank Scherr    TALENTF - Talent:frei   1       258w @3.30wkg   01:35:36.822
+GC      GC-HAB  -M      Grant Goudge    RELENTLESS - Cobra Kai  1       220w @3.00wkg   01:35:37.356
+GC      GC-HAB  -M      Peter Campbell  COALITION - Coalition United    1       243w @3.10wkg   01:36:12.662
+GC      GC-HAB  -M      Juanjoferres    HISP - HISP - LETOUR    1       231w @2.70wkg   01:37:11.181
+GC      GC-HAB  -M      Florian Meyer   TALENTF - Talent:frei   1       219w @2.90wkg   01:37:21.762
+GC      GC-HAB  -M      Alex James      CRYO-GEN - Lancelot     1       263w @2.80wkg   01:37:21.887
+GC      GC-HAB  -F      Catherine       5W4T - 5.W.4.T  1       178w @3.20wkg   01:37:22.734
+GC      GC-HAB  -M      Ian Greaves     OTR - Goblins   1       234w @3.00wkg   01:37:23.424
+GC      GC-HAB  -M      Dave D  ZSCOT - ZRScot Tiree    1       245w @2.90wkg   01:37:26.173
+GC      GC-HAB  -M      Stephen Fischer         OTR - Unicorns  1       244w @2.80wkg   01:37:49.554
+GC      GC-HAB  -M      Gustaf Lindqvist        SZ - SZ LOKE    1       239w @2.90wkg   01:38:25.000
+GC      GC-HAB  -M      Weiheng Chang   EVOLUTION - EVOLUTION - LETOUR  1       196w @3.20wkg   01:39:04.129
+GC      GC-HAB  -M      Ralf Damrat     ABR - ABR Bloobo webdesign      1       206w @2.90wkg   01:40:05.392
+GC      GC-HAB  -M      Ed England      eSRT - Perseus  1       226w @3.10wkg   01:40:31.357
+GC      GC-HAB  -M      Cornelius Babst         FRR - Thunderball       1       227w @2.70wkg   01:40:57.133
+GC      GC-HAB  -M      Paul Boreham    BAKPDL - BP1    1       240w @2.40wkg   01:45:23.637
+GC      GC-HAB  -M      Moises clemente         SZ - SZ LOKE    1       211w @2.50wkg   01:48:45.868
+GC      GC-HAB  -M      Marc Wennrich   EVOLUTION - EVOLUTION - LETOUR  1       212w @2.10wkg   01:56:25.717
+GC      GC-BON  -F      Zeina Loutfi    REVO - REVO     1       215w @3.50wkg   01:27:06.359
+GC      GC-BON  -M      David Lynes     TFC - TFC Harriers      1       271w @3.10wkg   01:29:13.974
+GC      GC-BON  -M      Ken Holley      TFC - TFC Harriers      1       263w @3.30wkg   01:30:23.300
+GC      GC-BON  -M      Jens Lueckhof   ALPENTVC - AVC-Hippos   1       299w @2.90wkg   01:30:39.045
+GC      GC-BON  -F      Aliseeyah       WTRL - WTRL Dinos       1       207w @3.30wkg   01:30:40.452
+GC      GC-BON  -M      Randy Hermann   BPCC - BPCC - LETOUR    1       261w @3.10wkg   01:30:45.465
+GC      GC-BON  -M      Frank Kratzer   OTR - Bolts     1       268w @3.00wkg   01:30:45.599
+GC      GC-BON  -M      Ron Gallo       OTR - Goblins   1       277w @3.00wkg   01:30:45.973
+GC      GC-BON  -M      Anders Kvale    DIRT - DEVILS   1       294w @2.80wkg   01:31:39.027
+GC      GC-BON  -M      Matthew Day     ABR - ABR Bloobo webdesign      1       244w @3.20wkg   01:31:41.737
+GC      GC-BON  -M      Jon Block       FRR - Thunderball       1       288w @3.30wkg   01:31:49.022
+GC      GC-BON  -M      Mike Denton     RCR - RCR - LETOUR      1       248w @3.30wkg   01:31:52.313
+GC      GC-BON  -M      Stein Arvid     WTRL - WTRL Dinos       1       263w @2.90wkg   01:32:00.895
+GC      GC-BON  -M      Richard Johnson         USMES - Britannia       1       296w @2.90wkg   01:32:08.208
+GC      GC-BON  -M      Peter Brandt    FRR - Skyfall   1       272w @3.10wkg   01:32:20.251
+GC      GC-BON  -M      Guy Evans       CRYO-GEN - Lancelot     1       245w @2.90wkg   01:32:39.146
+GC      GC-BON  -M      Leif Larsson    SZ - SZ LOKE    1       239w @3.00wkg   01:32:39.694
+GC      GC-BON  -M      Michael Michael         TALENTF - Talent:frei   1       285w @2.70wkg   01:32:39.801
+GC      GC-BON  -F      Valerie Pa      ABR - ABR Bloobo webdesign      1       188w @3.70wkg   01:32:40.002
+GC      GC-BON  -M      Lee Dixon       BAKPDL - BP1    1       216w @3.30wkg   01:32:45.088
+GC      GC-BON  -M      Luis Coelho     TugaZ - Faial   1       236w @2.80wkg   01:32:53.675
+GC      GC-BON  -M      Antonio Superweak       TugaZ - Faial   1       295w @2.80wkg   01:32:54.837
+GC      GC-BON  -M      Frederik Foulon         Race3R - WASP   1       251w @2.90wkg   01:32:56.009
+GC      GC-BON  -M      James Orme      CRCAF - FoundationNation        1       274w @2.90wkg   01:33:25.594
+GC      GC-BON  -M      Lyle Nielsen    ABR - ABR Bloobo webdesign      1       248w @3.20wkg   01:33:27.406
+GC      GC-BON  -M      Harry Roberts   RCR - RCR - LETOUR      1       226w @3.00wkg   01:33:55.737
+GC      GC-BON  -M      Fabio Santos    TugaZ - Pico    1       279w @2.80wkg   01:34:00.791
+GC      GC-BON  -M      Simon Scott     TBR - JumboVisma        1       228w @3.00wkg   01:34:02.161
+GC      GC-BON  -M      David Smith (BON)       ZSCOT - ZRScot Tiree    1       217w @3.30wkg   01:34:04.142
+GC      GC-BON  -M      Stuart Codling  ABR - ABR Bloobo webdesign      1       233w @2.90wkg   01:34:04.191
+GC      GC-BON  -M      Haydn Jones     Race3R - WASP   1       246w @2.80wkg   01:34:08.346
+GC      GC-BON  -F      Camilla Edvardsson Stenvold     eSRT - Perseus  1       196w @3.10wkg   01:34:08.654
+GC      GC-BON  -F      Pamela Garside-Meyers   WTRL - WTRL Dinos       1       187w @3.30wkg   01:34:10.877
+GC      GC-BON  -F      Nina hodgson    EVOLUTION - EVOLUTION - LETOUR  1       202w @3.20wkg   01:34:14.801
+GC      GC-BON  -M      Jeffrey Budden  EVOLUTION - EVOLUTION - LETOUR  1       256w @3.10wkg   01:34:16.346
+GC      GC-BON  -M      Roger Hall      ZSCOT - ZRScot Tiree    1       253w @2.90wkg   01:34:25.175
+GC      GC-BON  -M      Ian Jervis      Race3R - ACDC   1       248w @3.00wkg   01:34:51.132
+GC      GC-BON  -F      Eija Kestila    EVOLUTION - EVOLUTION - LETOUR  1       212w @2.90wkg   01:34:59.888
+GC      GC-BON  -F      Stephanie Lavigueur     OPT - Velo Optimum      1       207w @3.10wkg   01:35:02.871
+GC      GC-BON  -M      JS Prenovost    LWATT - Phoenix         1       258w @2.70wkg   01:35:04.086
+GC      GC-BON  -F      Anja Buckley    KIRCHMAIR - KIRCHMAIR e-Cycling         1       209w @3.30wkg   01:35:04.518
+GC      GC-BON  -M      German Pizarro  OTR - Bolts     1       274w @2.80wkg   01:35:06.374
+GC      GC-BON  -F      Louise Everitt  RAVE - RAVE NJINGA      1       207w @3.20wkg   01:35:06.913
+GC      GC-BON  -M      Mikael Myrsell  SZ - SZ LOKE    1       240w @2.80wkg   01:35:07.031
+GC      GC-BON  -F      Kimberly Juul   TBR - JumboVisma        1       215w @3.20wkg   01:35:08.062
+GC      GC-BON  -F      Heather Downie  REVO - REVO     1       184w @3.20wkg   01:35:08.145
+GC      GC-BON  -M      JB Jones        FRR - Spectre   1       260w @3.20wkg   01:35:08.643
+GC      GC-BON  -F      Jackie Ciampi   TFC - TFC Storm         1       197w @3.30wkg   01:35:08.685
+GC      GC-BON  -M      Juergen Becker  WATTFAB - WATTFAB - LETOUR      1       305w @2.90wkg   01:35:32.426
+GC      GC-BON  -M      Juergen Weinacht        KIRCHMAIR - KIRCHMAIR e-Cycling         1       258w @3.00wkg   01:35:37.694
+GC      GC-BON  -M      Eric Brisebois  LWATT - Phoenix         1       253w @2.90wkg   01:36:54.689
+GC      GC-BON  -M      Stuart Davison  Race3R - ACDC   1       234w @2.80wkg   01:37:11.223
+GC      GC-BON  -M      Erik Gaardsted  FFZ - FFZ Spartiate     1       238w @2.80wkg   01:37:20.721
+GC      GC-BON  -F      Dominique eustace       TFC - TFC Storm         1       169w @3.50wkg   01:37:24.252
+GC      GC-BON  -F      K Hill  TEAMCLS - Équipe Orange         1       251w @2.90wkg   01:37:24.389
+GC      GC-BON  -M      Mike Platt      BPCC - BPCC - LETOUR    1       238w @2.90wkg   01:37:27.531
+GC      GC-BON  -M      James Balloch   COALITION - Coalition United    1       294w @2.60wkg   01:37:41.294
+GC      GC-BON  -M      Wolfgang Reh    ALPENTVC - AVC-Hippos   1       235w @2.60wkg   01:37:45.377
+GC      GC-BON  -M      Maxime LÃ©tourneau      LWATT - Phoenix         1       251w @2.90wkg   01:37:49.649
+GC      GC-BON  -F      Ema Falez       TBW - TBW Britannia     1       179w @3.30wkg   01:37:51.645
+GC      GC-BON  -M      Dirk Kristmann (BON)    ALPENTVC - AVC-Hippos   1       234w @2.90wkg   01:37:55.533
+GC      GC-BON  -F      Noemie Labbe-Roy        OPT - Velo Optimum      1       193w @3.00wkg   01:37:56.008
+GC      GC-BON  -M      Mike Schuster   WATTFAB - WATTFAB - LETOUR      1       258w @2.60wkg   01:38:00.209
+GC      GC-BON  -M      lakis halkias   Race3R - WASP   1       240w @2.90wkg   01:38:03.927
+GC      GC-BON  -M      Paul Scully     EVOLUTION - EVOLUTION - LETOUR  1       264w @2.80wkg   01:38:25.887
+GC      GC-BON  -M      Nils Edvardsson Stenvold        eSRT - Perseus  1       214w @2.80wkg   01:38:27.270
+GC      GC-BON  -M      David Andrews   CRYO-GEN - Lancelot     1       232w @3.00wkg   01:38:31.362
+GC      GC-BON  -F      Rachel Rodger   ZSCOT - ZRScot Tiree    1       232w @2.90wkg   01:38:32.478
+GC      GC-BON  -F      Anna Cico       TBW - TBW Britannia     1       209w @3.10wkg   01:39:09.443
+GC      GC-BON  -M      Andreas Weilemann       PCH - Le Tour   1       247w @2.70wkg   01:39:09.885
+GC      GC-BON  -M      Lee Garbutt     FRR - Thunderball       1       230w @2.90wkg   01:39:35.804
+GC      GC-BON  -M      Serge Belanger  DIRT - DEVILS   1       242w @2.70wkg   01:39:37.611
+GC      GC-BON  -M      Martin Gårdlund         FRR - Spectre   1       238w @2.50wkg   01:39:41.315
+GC      GC-BON  -M      Calum Shand     ZSCOT - ZRScot Tiree    1       243w @2.80wkg   01:40:15.515
+GC      GC-BON  -M      Jose Monteiro   TugaZ - Corvo   1       222w @2.90wkg   01:40:16.253
+GC      GC-BON  -M      Daniel BjÃ¶rkman        SZ - SZ LOKE    1       225w @2.70wkg   01:40:35.993
+GC      GC-BON  -F      Gina van Rossum         TBW - TBW Britannia     1       181w @2.80wkg   01:40:37.635
+GC      GC-BON  -M      Ricardo Machado         TugaZ - Pico    1       237w @2.80wkg   01:40:37.640
+GC      GC-BON  -M      Luke    TBR - JumboVisma        1       270w @2.60wkg   01:40:41.568
+GC      GC-BON  -F      Roslyn McGinty  TFC - TFC Storm         1       179w @3.00wkg   01:40:43.091
+GC      GC-BON  -M      George Esplin-Jones     OTR - Unicorns  1       238w @2.60wkg   01:40:54.525
+GC      GC-BON  -M      Jamie Best      TFC - TFC Harriers      1       241w @2.60wkg   01:40:55.651
+GC      GC-BON  -F      Kirstein Janine         KIRCHMAIR - KIRCHMAIR e-Cycling         1       193w @3.00wkg   01:40:56.690
+GC      GC-BON  -F      Samantha Haacke         COALITION - Coalition United    1       185w @3.10wkg   01:40:57.861
+GC      GC-BON  -M      Adi Hense       TBW - TBW Britannia     1       224w @2.80wkg   01:41:15.256
+GC      GC-BON  -M      Marc Garcia     HISP - HISP - LETOUR    1       248w @2.60wkg   01:41:36.411
+GC      GC-BON  -F      Steph waring    REVO - REVO     1       184w @3.30wkg   01:41:46.215
+GC      GC-BON  -M      Stephane Lamothe        LWATT - Phoenix         1       240w @2.60wkg   01:42:15.862
+GC      GC-BON  -M      Pedro Pedroso   TugaZ - Corvo   1       241w @2.90wkg   01:42:21.431
+GC      GC-BON  -F      Amy Mundisev    FEARLESS - Le Tour      1       201w @2.90wkg   01:42:25.608
+GC      GC-BON  -M      Levente Incze   ABR - ABR Bloobo webdesign      1       258w @2.60wkg   01:42:27.247
+GC      GC-BON  -F      Mandy Heijblok  COALITION - Coalition United    1       192w @2.80wkg   01:42:50.437
+GC      GC-BON  -F      Lisa Jane Lait  RAVE - RAVE NJINGA      1       200w @3.00wkg   01:42:51.445
+GC      GC-BON  -M      Peter Forbes    DIRT - DEVILS   1       228w @2.70wkg   01:42:58.734
+GC      GC-BON  -M      Nathan Melvin   ABR - ABR Bloobo webdesign      1       233w @2.70wkg   01:43:14.184
+GC      GC-BON  -M      Peter Ferngren  SZ - SZ LOKE    1       211w @2.50wkg   01:43:30.599
+GC      GC-BON  -M      Dan Evanko      OTR - Bolts     1       206w @2.60wkg   01:45:14.658
+GC      GC-BON  -M      Nisiprius Barnes        BAKPDL - BP1    1       162w @2.90wkg   01:45:26.346
+GC      GC-BON  -M      Jeffery Arnier  CRYO-GEN - Lancelot     1       205w @2.80wkg   01:45:32.213
+GC      GC-BON  -M      Thomas Fritz    PCH - Le Tour   1       224w @2.50wkg   01:46:24.635
+GC      GC-BON  -M      Ludwig Kettenberger     ALPENTVC - AVC-Hippos   1       209w @2.60wkg   01:46:33.766
+GC      GC-BON  -M      Kevin Brown     RCR - RCR - LETOUR      1       200w @2.70wkg   01:46:51.756
+GC      GC-BON  -M      Christoph Bosshard      WTRL - WTRL Dinos       1       221w @2.50wkg   01:46:52.192
+GC      GC-BON  -M      Jeff Schurz     TFC - TFC Harriers      1       229w @2.40wkg   01:47:01.306
+GC      GC-BON  -M      Berthold Wimmer         WLBB - WLBB Racing Team         1       217w @2.20wkg   01:48:27.143
+GC      GC-BON  -M      Louis-Pierre Dupuis     LWATT - Phoenix         1       199w @2.60wkg   01:48:30.551
+GC      GC-BON  -M      Thomas Sachse   KIRCHMAIR - KIRCHMAIR e-Cycling         1       225w @2.50wkg   01:49:19.403
+GC      GC-BON  -M      Jay O’Neil      EVOLUTION - EVOLUTION - LETOUR  1       212w @2.40wkg   01:50:02.354
+GC      GC-BON  -M      George Dobbins  DIRT - DEVILS   1       200w @2.20wkg   01:55:14.147
+GC      GC-BON  -M      David   HISP - HISP - LETOUR    1       186w @2.10wkg   01:56:58.668
+GC      GC-BON  -M      Rene Gaida      FRR - Thunderball       1       158w @2.00wkg   02:05:54.992
+GC      GC-CAY  -M      Jonathan Banks  TFC - TFC Harriers      1       327w @2.70wkg   01:33:18.569
+GC      GC-CAY  -F      Nathalie Gagnon         LWATT - Phoenix         1       186w @3.10wkg   01:37:15.890
+GC      GC-CAY  -M      Micha Willer    ALPENTVC - AVC-Hippos   1       236w @2.70wkg   01:37:21.710
+GC      GC-CAY  -M      Todd Wichman    USMES - Britannia       1       243w @2.70wkg   01:37:24.724
+GC      GC-CAY  -M      Gary Cordery    COALITION - Coalition United    1       253w @2.30wkg   01:37:45.086
+GC      GC-CAY  -M      Niels Cornelisse        FRR - Spectre   1       246w @3.00wkg   01:37:45.151
+GC      GC-CAY  -M      Jonathan Cloutier       OPT - Velo Optimum      1       257w @2.60wkg   01:37:45.472
+GC      GC-CAY  -F      Helen Meigh     Race3R - ACDC   1       227w @2.80wkg   01:37:45.729
+GC      GC-CAY  -F      Astrid Bontzek  KIRCHMAIR - KIRCHMAIR e-Cycling         1       180w @2.90wkg   01:37:46.240
+GC      GC-CAY  -M      Aaron Elder     RCR - RCR - LETOUR      1       224w @2.50wkg   01:37:56.313
+GC      GC-CAY  -M      Johan Andersson         SZ - SZ LOKE    1       261w @2.50wkg   01:38:17.459
+GC      GC-CAY  -M      Ricky Velotta   RCR - RCR - LETOUR      1       224w @2.70wkg   01:38:17.582
+GC      GC-CAY  -M      Matt Thomson    OTR - Unicorns  1       227w @2.70wkg   01:38:18.905
+GC      GC-CAY  -M      Patrick Wichert         WLBB - WLBB Racing Team         1       242w @2.60wkg   01:38:19.456
+GC      GC-CAY  -F      Pia Wertheimer  WLBB - WLBB Racing Team         1       169w @3.10wkg   01:38:19.479
+GC      GC-CAY  -F      Laura Damrat    ABR - ABR Bloobo webdesign      1       206w @2.80wkg   01:38:19.577
+GC      GC-CAY  -M      Glenn Houston   LWATT - Phoenix         1       270w @2.80wkg   01:38:20.017
+GC      GC-CAY  -M      Luís Marques    TugaZ - Pico    1       242w @2.70wkg   01:38:22.096
+GC      GC-CAY  -F      Paola Peroni    ABR - ABR Bloobo webdesign      1       160w @3.30wkg   01:38:39.730
+GC      GC-CAY  -F      Netta Vogt      WTRL - WTRL Dinos       1       225w @2.90wkg   01:39:05.241
+GC      GC-CAY  -M      Roger Knecht    COALITION - Coalition United    1       195w @2.60wkg   01:39:26.974
+GC      GC-CAY  -F      Geneva Randall  OTR - Goblins   1       239w @2.50wkg   01:39:35.789
+GC      GC-CAY  -M      Joao Severino   TugaZ - Corvo   1       216w @2.40wkg   01:39:36.096
+GC      GC-CAY  -F      Sarah Thomas    TFC - TFC Storm         1       169w @2.90wkg   01:39:38.136
+GC      GC-CAY  -F      Tara Follett    REVO - REVO     1       165w @3.00wkg   01:39:38.397
+GC      GC-CAY  -F      Jill Theodossi  COALITION - Coalition United    1       169w @2.90wkg   01:39:41.690
+GC      GC-CAY  -M      Phil Pelgrim    TEAM NZAUS - Black & Gold       1       227w @2.90wkg   01:39:50.977
+GC      GC-CAY  -F      Julia Brook     EVOLUTION - EVOLUTION - LETOUR  1       189w @2.90wkg   01:39:51.490
+GC      GC-CAY  -M      Neil Glezer-Jones       WTRL - WTRL Dinos       1       249w @2.40wkg   01:39:58.161
+GC      GC-CAY  -F      Louise Presslie         ZSCOT - ZRScot Tiree    1       188w @3.00wkg   01:40:00.949
+GC      GC-CAY  -F      Sarah Watmore   REVO - REVO     1       204w @2.70wkg   01:40:01.450
+GC      GC-CAY  -F      Cathy Collins   WTRL - WTRL Dinos       1       164w @2.90wkg   01:40:42.818
+GC      GC-CAY  -M      John Smith      OTR - Bolts     1       239w @2.50wkg   01:40:42.906
+GC      GC-CAY  -M      Darren Ellis    CRYO-GEN - Lancelot     1       222w @2.60wkg   01:41:14.047
+GC      GC-CAY  -F      Roswitha Hense-Simenko  TBW - TBW Britannia     1       181w @2.80wkg   01:41:57.836
+GC      GC-CAY  -M      James Hayes     ZSCOT - ZRScot Tiree    1       234w @2.40wkg   01:42:03.498
+GC      GC-CAY  -M      Ian Waterston   TT1 - TT1 - LETOUR      1       237w @2.50wkg   01:42:03.758
+GC      GC-CAY  -M      Rob Imrie       LWATT - Phoenix         1       257w @2.40wkg   01:42:04.643
+GC      GC-CAY  -M      Jeremy Lohman   TT1 - TT1 - LETOUR      1       267w @2.50wkg   01:42:07.687
+GC      GC-CAY  -M      Philip Plummer  RAVE - RAVE NJINGA      1       196w @2.60wkg   01:42:17.693
+GC      GC-CAY  -M      Richard Mutch   ZSCOT - ZRScot Tiree    1       240w @2.70wkg   01:42:18.066
+GC      GC-CAY  -F      Sabine Seifried         ALPENTVC - AVC-Hippos   1       199w @2.70wkg   01:42:18.300
+GC      GC-CAY  -M      Waldemar Szewczuk       ABR - ABR Bloobo webdesign      1       220w @2.50wkg   01:42:18.896
+GC      GC-CAY  -M      Helder Silva    TugaZ - Pico    1       201w @2.60wkg   01:42:19.903
+GC      GC-CAY  -M      John Smalley    EVOLUTION - EVOLUTION - LETOUR  1       245w @2.40wkg   01:42:40.183
+GC      GC-CAY  -M      Alexander Herbert       ABR - ABR Bloobo webdesign      1       236w @2.70wkg   01:43:22.055
+GC      GC-CAY  -M      John Amans      ABR - ABR Bloobo webdesign      1       195w @2.70wkg   01:43:37.332
+GC      GC-CAY  -M      Richard Ersted  COALITION - Coalition United    1       207w @2.80wkg   01:43:46.251
+GC      GC-CAY  -F      Patricia Christoph      RAVE - RAVE NJINGA      1       149w @3.00wkg   01:44:13.473
+GC      GC-CAY  -M      Laurence Dunford        SOCKS4W - WattsUnleashed        1       213w @2.50wkg   01:44:23.619
+GC      GC-CAY  -M      Gary Joyce      ABR - ABR Bloobo webdesign      1       227w @2.50wkg   01:44:37.916
+GC      GC-CAY  -M      BjÃ¶rn Lager Dalbratt   eSRT - Perseus  1       179w @2.40wkg   01:44:55.586
+GC      GC-CAY  -M      Tom Lawton      OTR - Bolts     1       233w @2.50wkg   01:44:58.040
+GC      GC-CAY  -M      Philipp Foerster        FRR - Thunderball       1       199w @2.70wkg   01:45:00.608
+GC      GC-CAY  -M      Martinho Capelão        TugaZ - Faial   1       199w @2.80wkg   01:45:16.138
+GC      GC-CAY  -M      Barry McGuigan  ZSCOT - ZRScot Tiree    1       240w @2.60wkg   01:45:24.760
+GC      GC-CAY  -M      simon robinson  DIRT - DEVILS   1       189w @2.90wkg   01:45:30.050
+GC      GC-CAY  -M      Tomek Koguc     PCH - Le Tour   1       199w @2.30wkg   01:46:27.995
+GC      GC-CAY  -F      Heather Zygun   REVO - REVO     1       150w @3.00wkg   01:47:18.230
+GC      GC-CAY  -M      Dave Corbin     LWATT - Phoenix         1       239w @2.50wkg   01:47:27.951
+GC      GC-CAY  -M      Markus Klassen  FRR - Spectre   1       187w @2.40wkg   01:47:44.209
+GC      GC-CAY  -M      Jens Bittner    ABR - ABR Bloobo webdesign      1       222w @2.60wkg   01:48:20.002
+GC      GC-CAY  -M      Nathan Kiger    OTR - Goblins   1       206w @2.50wkg   01:48:27.651
+GC      GC-CAY  -M      Thomas Finger   FRR - Spectre   1       199w @2.80wkg   01:48:52.376
+GC      GC-CAY  -M      Ken deLaski     FRR - Skyfall   1       179w @2.40wkg   01:49:50.414
+GC      GC-CAY  -F      Roselyne Villiard       FEARLESS - Le Tour      1       166w @2.40wkg   01:52:01.096
+GC      GC-CAY  -M      Marius Quadflieg        COALITION - Coalition United    1       201w @2.20wkg   01:54:21.085
+GC      GC-CAY  -M      Mike Soukini    LWATT - Phoenix         1       240w @2.10wkg   01:56:09.459
+GC      GC-CAY  -M      Ricardo Antonio Velasquez Rodas         COALITION - Coalition United    1       174w @2.10wkg   01:58:56.032
+GC      GC-CAY  -M      Axel Kanne      ZWDL - ZWDL Le Tour     1       160w @2.20wkg   01:59:21.044
+GC      GC-CAY  -M      Frank Göppinger         KIRCHMAIR - KIRCHMAIR e-Cycling         1       169w @2.20wkg   02:00:25.362
+GC      GC-CAY  -M      Doug Earle      ABR - ABR Bloobo webdesign      1       118w @2.40wkg   02:03:59.452
+GC      GC-CAY  -M      Julio d’Escrivan        HISP - HISP - LETOUR    1       157w @1.90wkg   02:06:48.960
+GC      GC-CAY  -M      Blake Chalson   BPCC - BPCC - LETOUR    1       0w @1.70wkg     02:15:09.508
+GC      GC-JLP  -F      Saba El-Hilo    REVO - REVO     1       198w @3.30wkg   01:37:30.698
+GC      GC-JLP  -F      Anne Vincent    OPT - Velo Optimum      1       214w @2.50wkg   01:38:19.467
+GC      GC-JLP  -F      Myriam Tjorbajes        LWATT - Phoenix         1       192w @2.90wkg   01:39:39.238
+GC      GC-JLP  -F      Catherine Deveault      LWATT - Phoenix         1       183w @2.80wkg   01:41:48.830
+GC      GC-JLP  -M      David Hill      TFC - TFC Harriers      1       258w @2.20wkg   01:42:05.751
+GC      GC-JLP  -M      Mark Sole       ABR - ABR Bloobo webdesign      1       244w @2.70wkg   01:42:20.150
+GC      GC-JLP  -M      Greg Morrow     TFC - TFC Harriers      1       206w @2.60wkg   01:43:12.082
+GC      GC-JLP  -M      Paulo Costa     TugaZ - Corvo   1       233w @2.50wkg   01:43:15.122
+GC      GC-JLP  -F      Hayley Vale     Race3R - ACDC   1       133w @2.70wkg   01:43:37.040
+GC      GC-JLP  -M      Yps Wolf        ALPENTVC - AVC-Hippos   1       190w @2.60wkg   01:43:48.327
+GC      GC-JLP  -M      Josh Elder      RCR - RCR - LETOUR      1       218w @2.40wkg   01:43:48.373
+GC      GC-JLP  -M      Rick Todd       TFC - TFC Harriers      1       204w @2.30wkg   01:44:13.545
+GC      GC-JLP  -F      Nikki Croft     CRYO-GEN - Lancelot     1       163w @2.70wkg   01:44:20.118
+GC      GC-JLP  -F      June Alm        CRYO-GEN - Lancelot     1       167w @2.80wkg   01:44:22.255
+GC      GC-JLP  -F      Angharad Lloyd  TFC - TFC Storm         1       157w @2.90wkg   01:44:53.036
+GC      GC-JLP  -M      David Gilmore   ZSCOT - ZRScot Tiree    1       245w @2.40wkg   01:45:14.767
+GC      GC-JLP  -M      Mário Andrade   TugaZ - Faial   1       229w @2.50wkg   01:45:40.633
+GC      GC-JLP  -F      Annabel Vella   RAVE - RAVE NJINGA      1       169w @2.70wkg   01:46:38.921
+GC      GC-JLP  -F      Annika Claus    RCP - RC Pfeil-Rebellunas       1       180w @2.40wkg   01:47:22.717
+GC      GC-JLP  -F      Manuela Bootsmann       RCP - RC Pfeil-Rebellunas       1       160w @2.50wkg   01:47:22.851
+GC      GC-JLP  -F      Juliette Williams       TFC - TFC Storm         1       181w @2.50wkg   01:47:23.293
+GC      GC-JLP  -F      Michelle Spicer         TEAM NZAUS - Black & Gold       1       163w @2.60wkg   01:47:35.604
+GC      GC-JLP  -M      Charlie Marshall        ZSCOT - ZRScot Tiree    1       231w @2.30wkg   01:48:28.951
+GC      GC-JLP  -M      Matt Sellors    TFC - TFC Harriers      1       262w @2.40wkg   01:48:29.090
+GC      GC-JLP  -M      Francois lantin         LWATT - Phoenix         1       244w @2.50wkg   01:48:32.345
+GC      GC-JLP  -F      Mel Gagnon      LWATT - Phoenix         1       141w @2.50wkg   01:48:32.717
+GC      GC-JLP  -M      Nigel Perkins   USMES - Britannia       1       203w @2.20wkg   01:48:34.337
+GC      GC-JLP  -F      Louise Hunter   EVOLUTION - EVOLUTION - LETOUR  1       127w @2.70wkg   01:48:44.302
+GC      GC-JLP  -M      Andrew Rodger   ZSCOT - ZRScot Tiree    1       214w @2.20wkg   01:48:45.729
+GC      GC-JLP  -F      Sanna Friborg   SZ - SZ LOKE    1       179w @2.30wkg   01:48:52.294
+GC      GC-JLP  -F      Shaz Bat        REVO - REVO     1       171w @2.40wkg   01:48:56.414
+GC      GC-JLP  -M      KevinJ Brown    OTR - Goblins   1       223w @2.20wkg   01:48:56.538
+GC      GC-JLP  -F      Katrin Junkers  RCP - RC Pfeil-Rebellunas       1       188w @2.40wkg   01:48:58.633
+GC      GC-JLP  -M      Mats Roesgaard Sjödin   ZWDL - ZWDL Le Tour     1       217w @2.20wkg   01:49:46.008
+GC      GC-JLP  -M      Jochen.W (JLP) (COAL EMEA)      COALITION - Coalition United    1       265w @2.30wkg   01:50:24.560
+GC      GC-JLP  -M      John McEwan     FRR - Thunderball       1       161w @2.30wkg   01:50:28.181
+GC      GC-JLP  -F      Daniella Garcia         REVO - REVO     1       183w @2.40wkg   01:50:30.166
+GC      GC-JLP  -M      Andrew Mead     TBR - JumboVisma        1       232w @2.20wkg   01:50:55.778
+GC      GC-JLP  -F      Mhairi Walker   ZSCOT - ZRScot Tiree    1       146w @2.30wkg   01:50:59.296
+GC      GC-JLP  -F      Julie Woods     TFC - TFC Storm         1       167w @2.50wkg   01:51:48.544
+GC      GC-JLP  -F      Wanda Mauricio  FEARLESS - Le Tour      1       144w @2.60wkg   01:51:54.080
+GC      GC-JLP  -F      Morganne Cruz   FEARLESS - Le Tour      1       167w @2.60wkg   01:52:07.484
+GC      GC-JLP  -F      Emma Dooley     FEARLESS - Le Tour      1       152w @2.50wkg   01:52:21.756
+GC      GC-JLP  -F      Laura Sayers    WTRL - WTRL Dinos       1       154w @2.70wkg   01:52:31.103
+GC      GC-JLP  -F      Sharon Almanza  COALITION - Coalition United    1       121w @2.70wkg   01:52:36.425
+GC      GC-JLP  -F      Sian Hawkes     Race3R - ACDC   1       130w @2.40wkg   01:52:38.259
+GC      GC-JLP  -F      Elisabete Ribeiro       TugaZ - Faial   1       164w @2.20wkg   01:52:43.791
+GC      GC-JLP  -F      Helen Thomas    TFC - TFC Storm         1       191w @2.00wkg   01:53:39.405
+GC      GC-JLP  -M      Andy Fyles      ABR - ABR Bloobo webdesign      1       208w @2.20wkg   01:54:06.351
+GC      GC-JLP  -F      Clare Taylor    ZSCOT - ZRScot Tiree    1       151w @2.30wkg   01:54:36.693
+GC      GC-JLP  -F      Susanne Battegay        WTRL - WTRL Dinos       1       203w @2.10wkg   01:54:58.976
+GC      GC-JLP  -M      Patrick Svensson        ZWDL - ZWDL Le Tour     1       186w @2.20wkg   01:55:46.328
+GC      GC-JLP  -F      Cheryl Sobiee   WTRL - WTRL Dinos       1       155w @2.40wkg   01:55:51.749
+GC      GC-JLP  -M      Steven Gruneisen        FRR - Spectre   1       200w @2.10wkg   01:56:44.078
+GC      GC-JLP  -M      Tam McNeish     ZSCOT - ZRScot Tiree    1       180w @2.00wkg   01:56:47.039
+GC      GC-JLP  -F      Shonagh McAlpine        ZSCOT - ZRScot Tiree    1       150w @2.20wkg   01:56:55.352
+GC      GC-JLP  -M      Andy Craig      ZSCOT - ZRScot Tiree    1       199w @2.00wkg   01:56:55.827
+GC      GC-JLP  -M      Allan Poulsen   FRR - Skyfall   1       210w @2.00wkg   01:57:12.723
+GC      GC-JLP  -M      Tom Morgan      BAKPDL - BP1    1       193w @2.10wkg   01:57:25.195
+GC      GC-JLP  -M      Kunath  WLBB - WLBB Racing Team         1       198w @2.10wkg   01:58:15.525
+GC      GC-JLP  -F      Beate // FrlTri         RCP - RC Pfeil-Rebellunas       1       139w @2.30wkg   01:59:22.107
+GC      GC-JLP  -M      Scott House     DIRT - DEVILS   1       220w @1.90wkg   01:59:29.831
+GC      GC-JLP  -F      Sarah Dow-Imrie         RAVE - RAVE NJINGA      1       153w @2.30wkg   01:59:38.943
+GC      GC-JLP  -F      Christy Johnson         FEARLESS - Le Tour      1       155w @1.90wkg   02:00:41.364
+GC      GC-JLP  -M      Richard D’Amour         LWATT - Phoenix         1       194w @1.80wkg   02:01:36.416
+GC      GC-JLP  -F      Sinead Goss     WTRL - WTRL Dinos       1       156w @2.00wkg   02:01:56.246
+GC      GC-JLP  -F      Lyn Vasudeva    TBW - TBW Britannia     1       142w @2.20wkg   02:02:41.144
+GC      GC-JLP  -M      Miles Ushaw     TFC - TFC Harriers      1       147w @2.00wkg   02:02:42.451
+GC      GC-JLP  -F      Toni Howell     EVOLUTION - EVOLUTION - LETOUR  1       121w @2.20wkg   02:02:54.208
+GC      GC-JLP  -F      Heather Moon    REVO - REVO     1       140w @2.10wkg   02:03:46.091
+GC      GC-JLP  -F      Rowena Howard   RAVE - RAVE NJINGA      1       164w @1.90wkg   02:04:01.435
+GC      GC-JLP  -F      Hilary Readhead         EVOLUTION - EVOLUTION - LETOUR  1       127w @2.00wkg   02:04:13.773
+GC      GC-JLP  -M      Michael Couling         FRR - Spectre   1       173w @2.10wkg   02:04:41.612
+GC      GC-JLP  -M      Dave Morgan     SOCKS4W - WattsUnleashed        1       175w @1.80wkg   02:04:47.313
+GC      GC-JLP  -F      Angela Paterson         ZSCOT - ZRScot Tiree    1       147w @2.10wkg   02:05:24.303
+GC      GC-JLP  -F      Emma Strobel    RCP - RC Pfeil-Rebellunas       1       125w @2.10wkg   02:06:03.181
+GC      GC-JLP  -M      Jordi PeñarandaPerez    HISP - HISP - LETOUR    1       140w @1.90wkg   02:06:48.456
+GC      GC-JLP  -F      Chus Martin     HISP - HISP - LETOUR    1       117w @2.00wkg   02:06:48.526
+GC      GC-JLP  -F      Jack Cat        OTR - Unicorns  1       118w @2.00wkg   02:07:24.006
+GC      GC-JLP  -F      Angela Stevenson        EVOLUTION - EVOLUTION - LETOUR  1       159w @1.90wkg   02:08:34.226
+GC      GC-JLP  -F      Cindy McCourt   WTRL - WTRL Dinos       1       132w @2.00wkg   02:09:38.717
+GC      GC-JLP  -F      Nikki Faulkner  WTRL - WTRL Dinos       1       141w @1.90wkg   02:10:44.495
+GC      GC-JLP  -F      Claudia Beimel  WLBB - WLBB Racing Team         1       148w @1.80wkg   02:11:04.955
+GC      GC-JLP  -M      Kevin Mothersole        WTRL - WTRL Dinos       1       164w @1.70wkg   02:12:38.062
+GC      GC-JLP  -F      Magdalena Prylowska     eSRT - Perseus  1       147w @1.80wkg   02:13:19.393
+GC      GC-JLP  -M      Raffa   TALENTF - Talent:frei   1       164w @1.70wkg   02:15:30.147
+GC      GC-JLP  -F      Kat Cat         WTRL - WTRL Dinos       1       111w @1.80wkg   02:20:19.506
+GC      GC-JLP  -F      Sara Perrin     REVO - REVO     1       0w @1.50wkg     02:21:57.173
+GC      GC-JLP  -F      Silke Wuttke    RCP - RC Pfeil-Rebellunas       1       141w @1.50wkg   02:24:47.489
+GC      GC-JLP  -F      Mel Best        TFC - TFC Storm         1       112w @1.60wkg   02:26:47.021

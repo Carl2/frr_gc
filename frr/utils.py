@@ -39,3 +39,37 @@ def get_column_fn(rows):
             return apply_list(column)
 
     return column_fn
+
+
+def get_cols_row_fn(rows):
+    """Return function which can be used to get columns.
+
+    Keyword Arguments:
+    rows        -- Rows of type [[1,2,3],[4,5,6]
+    """
+
+    def get_cols_row(*cols, apply_field=None, apply_list=None):
+        """Return a list of tuples with the columns specified from the row.
+
+        Keyword Arguments:
+        *cols -- e.g 1,3
+        row   -- [[a,b,c,d],[e,f,g,h]]
+        apply_field -- (default None) Function to which one can apply transformation on field
+        apply_list  -- (default None) Function to transform the complete list
+
+        The above will return [[a,c],[e,g]]
+        """
+        #nonlocal apply_list
+        def get_col_from_row(row):
+            nonlocal apply_field
+            if apply_field is None:
+                return [row[col] for col in cols]
+            else:
+                return [apply_field(row[col]) for col in cols]
+
+        vals = [get_col_from_row(row) for row in rows]
+        if apply_list is None:
+            return vals
+        else:
+            return apply_list(vals)
+    return get_cols_row
