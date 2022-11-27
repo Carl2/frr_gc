@@ -53,7 +53,7 @@ def main():
         # can be used, spliting it up in chunks.
         vals = []
 
-        for start in range(0, len(rows),200):
+        for start in range(0, len(rows), 200):
             stop = start +200-1
             vals.append([start,stop])
             fp.pipe_line_insert_row_db(rows=rows[start:stop],
