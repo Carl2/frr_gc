@@ -3,6 +3,7 @@ import functools
 from pymonad.maybe import Just, Nothing, Maybe
 from pprint import pprint
 from icecream import ic
+import numpy as np
 
 
 def create_data(*, header: list[str], data: list[list]) -> pd.DataFrame:
@@ -19,6 +20,12 @@ def get_field_fn(data:pd.DataFrame, field:str ) -> callable:
         df_named = data.loc[data[field] == compare]
         return df_named
     return get_df_field
+
+def get_data_fn(data:pd.DataFrame):
+
+    def fun(field):
+        data.loc['Egap']
+
 
 
 
@@ -67,7 +74,7 @@ def get_plot_data(name_fn):
 
 
 
-def create_stage_data(data_field, stages):
+def create_stage_data(data_field, stages, field):
     """Create stage data fields
 
     The output from this function should become a dictionary
@@ -80,9 +87,11 @@ def create_stage_data(data_field, stages):
 
     """
     stage_dic = {}
-    stage_fn = get_field_fn(data_field, 'Stage')
+    stage_fn = get_field_fn(data_field, field)
     for stage in stages:
-         stage_dic[stage] = stage_fn(stage)
+        val = stage_fn(stage)
+
+        stage_dic[stage] = val
     return stage_dic
 
 
@@ -99,17 +108,34 @@ def create_rider_struct(df, stages, names):
               2: data_field,
               3: data_field
               }
-     <name2> :
+      egap: {
+              1: data_field,
+              2: data_field,
+              3: data_field
+     }],
+     <name2> : [
         {1: data_field},
         {3: data_field}
         ....
-    }
+    }]
     """
     myDic = {}
     name_fn = get_field_fn(df, 'Name')
+
     for name in names:
         name_df = name_fn(name)
-        stage_dic = {}
-        stage_dic['stages'] = create_stage_data(name_df, stages)
-        myDic[name] = stage_dic
+        myDic[name] = {'stages': create_stage_data(name_df, stages, 'Stage')}
+
     return myDic
+
+
+def create_array_from_struct(rider_struct: dict, name, stages: list, field:str):
+    times = []
+    for stage in stages:
+        arr = rider_struct[name]['stages'][stage][field].to_numpy()
+        if len(arr) == 0:
+            arr = np.array(['nat'], dtype='datetime64')
+        times.append(arr)
+    return times
+# egap = rider_struct[name]['stages'][stage]['Egap'].to_numpy()
+# ic(egap)

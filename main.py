@@ -8,38 +8,66 @@ data=[[1, "M-GHT", 11, "Daniel Bash (SZ) (GHT)", "SZ", "23 m 47.266 s", "+45.269
 data_hdr=["Stage", "Cat", "Pos", "Name", "Team", "Time", "Egap"]
 
 
-def plot_rider_times(rider_struct, names, stage_numbers):
-    # Create a figure and axis
-    fig, ax = plt.subplots(figsize=(12, 8))
+def parse_gap_time(gap_str: str) -> float:
+    if not gap_str:
+        return 0.0
 
+    total_seconds = 0.0
+    gap_parts = gap_str.replace('+', '').split()
+
+    for part in gap_parts:
+        if 'm' in part:
+            total_seconds += float(part.replace('m', '')) * 60
+        elif 's' in part:
+            total_seconds += float(part.replace('s', ''))
+    ic(total_seconds)
+    return total_seconds
+
+
+def parse_each_egap(egaps:list):
+    for egap in egaps:
+        if isinstance(egap, str):
+            ic(parse_gap_time(egap))
+        else:
+            ic(egap[0])
+
+
+
+
+
+
+def plot_rider_times(rider_struct, names, stages):
+    # Create a figure and axis
+    #fig, ax1 = plt.subplots(figsize=(12, 8))
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 12))
     # Iterate over each rider
     for name in names:
-        times = []
-        for stage in stage_numbers:
-            arr = rider_struct[name]['stages'][stage]['Time'].to_numpy()
-            if len(arr) == 0:
-                #arr = np.array(['1900-01-01T00:23:53.423000000'], dtype='datetime64')
-                arr = np.array(['nat'], dtype='datetime64')
-            ic(arr)
-            times.append(arr)
-
-            # else:
-            #     ic(times)
-            #     times.append(np.datetime64('1970-01-01T00:00:00'))
-
+        times = create_array_from_struct(rider_struct, name, stages, 'Time')
+        egaps = create_array_from_struct(rider_struct, name, stages, 'Egap')
+        flat_egaps = [arr[0] for arr in egaps]
+        parse_each_egap(egaps)
+        #parse_gap_time(egap)
         # Plot times, convert to numerical values for plotting
 
-        ax.plot(stage_numbers, times, marker='o', label=name)
-
+        ax1.plot(stages, times, marker='o', label=name)
+        #ax2.plot(stages, egaps, marker='*', label=names)
     # Format times on y-axis
-    ax.yaxis_date()
+    ax1.yaxis_date()
+    #ax2.yaxis_data()
 
     # Set plot labels and legend
-    ax.set_title('Rider Times by Stage')
-    ax.set_xlabel('Stage Number')
-    ax.set_ylabel('Time')
+    ax1.set_title('Rider Times by Stage')
+    ax1.set_xlabel('Stage Number')
+    ax1.set_ylabel('Time')
     plt.legend(title='Riders')
 
+    # Format second subplot
+    ax2.set_title('Time Gaps by Stage')
+    ax2.set_xlabel('Stage Number')
+    ax2.set_ylabel('Gap (seconds)')
+    ax2.legend(title='Riders')
+
+    plt.tight_layout()
     # Show plot
     plt.show()
 
@@ -67,7 +95,7 @@ def main():
   #riders =[name_fn(name) for name in names]
   rider_struct = create_rider_struct(new_pd, stages, names)
 
-  ic(rider_struct[names[4]]['stages'][9]['Time'])
+  # ic(rider_struct[names[4]]['stages'][9]['Time'])
 
 
   #pprint([ str(time).split('T')[1] for time in riders[4]['Time'].to_numpy()])
