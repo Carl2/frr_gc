@@ -4,6 +4,7 @@ from pymonad.maybe import Just, Nothing, Maybe
 from pprint import pprint
 from icecream import ic
 import numpy as np
+from datetime import timedelta
 
 
 def create_data(*, header: list[str], data: list[list]) -> pd.DataFrame:
@@ -48,10 +49,39 @@ def parse_time(time_str):
         time_str = time_str + " 0.0 s"
     return pd.to_datetime(time_str, format='%H hrs, %M m %S.%f s')
 
+def parse_delta(delta_str:str):
+    """Convert to delta time
+
+    +2 m 12.753 s -> 2*60 + 12.753
+    - split
+    """
+    minutes = 0
+    seconds = 0
+    if 'm' in delta_str:
+        minute_str, sec_str = delta_str.split('m')
+        minutes_str = minute_str.strip()[1:]
+        minutes = int(minutes_str) * 60
+        ic(minutes, delta_str)
+        delta_str = '+' + sec_str.strip()
+
+
+    else:
+        delta_str = delta_str
+
+    if 's' in delta_str:
+        #second_str = delta_str[1:-2]
+        second_str = delta_str[1:-2]
+        seconds =float(second_str)
+
+    td = timedelta(seconds=seconds,minutes=minutes)
+    ic(delta_str,td)
+    # #return minutes+seconds
+    return td
 
 def convert_pd_time(df: pd.DataFrame):
     new_df = df.copy()
     new_df['Time'] = new_df['Time'].transform(parse_time)
+    new_df['Egap'] = new_df['Egap'].transform(parse_delta)
     return new_df
 
 #Get stage for name.
@@ -129,13 +159,15 @@ def create_rider_struct(df, stages, names):
     return myDic
 
 
-def create_array_from_struct(rider_struct: dict, name, stages: list, field:str):
+def create_array_from_struct(rider_struct: dict, name: str,
+                             stages: list[int], field: str,
+                             error_fn: callable) -> dict:
     times = []
     for stage in stages:
         arr = rider_struct[name]['stages'][stage][field].to_numpy()
         if len(arr) == 0:
-            arr = np.array(['nat'], dtype='datetime64')
-        times.append(arr)
+            arr = error_fn()
+        times.append(arr[0])
     return times
 # egap = rider_struct[name]['stages'][stage]['Egap'].to_numpy()
 # ic(egap)
