@@ -17,49 +17,43 @@ data_hdr=["Stage", "Cat", "Pos", "Name", "Team", "Time", "Egap"]
 #Need to convert this time value
 # "1 hrs, 23 m 46.896 s" to time delta
 
+def convert_to_val(val: str) -> int:
+    if val is not None and len(val) > 0:
+        return int(val)
+    return 0
+
+
+
+
 def make_time_delta(hours_str: str, minute_str: str,
                     second_str: str, milli_str: str) -> timedelta:
-    hours = 0
-    minutes = 0
-    seconds = 0
-    milli = 0
-    if hours_str is not None:
-        hours = int(hours_str)
-    if minute_str is not None:
-        minutes = int(minute_str)
-    if second_str is not None:
-        seconds = int(second_str)
-    if milli_str is not None:
-        milli = int(milli_str)
+    hours = convert_to_val(hours_str)
+    minutes = convert_to_val(minute_str)
+    seconds = convert_to_val(second_str)
+    milli = convert_to_val(milli_str)
+
     ic(hours, minutes, seconds, milli)
     return timedelta(hours=hours, minutes=minutes,
                      seconds=seconds, milliseconds=milli)
 
 def parse_time_str(time_str):
-    time_split = split_by(time_str, ["hrs,", "m", ".", "s"])
-    hours = 0
-    minutes = 0
-    seconds = 0
-    milli = 0
-    if time_split[0] is not None:
-        hours = int(time_split[0])
-    if time_split[1] is not None:
-        minutes = int(time_split[1])
-    if time_split[2] is not None:
-        seconds = int(time_split[2])
-
-    if time_split[3] is not None:
-        milli = int(time_split[3])
-
+    part = split_by(time_str, ["hrs,", "m", ".", "s"])
+    hours = convert_to_val(part[0])
+    minutes = convert_to_val(part[1])
+    seconds = convert_to_val(part[2])
+    milli = convert_to_val(part[3])
     return timedelta(hours=hours, minutes=minutes,
                      seconds=seconds, milliseconds=milli)
 
 def parse_egap(egap_str:str) -> timedelta:
     #"+2 m 59.260 s"
-    parts = split_by(egap_str, ["+","m",".","s"])
-    ic(parts)
-    td = make_time_delta(None, parts[1], parts[2], parts[3])
-    ic(td)
+    parts = split_by(egap_str, ["+", "m", ".", "s"])
+    hours = convert_to_val(parts[0])
+    minutes = convert_to_val(parts[1])
+    seconds = convert_to_val(parts[2])
+    milli = convert_to_val(parts[3])
+    td = timedelta(hours=hours, minutes=minutes,
+                   seconds=seconds, milliseconds=milli)
     return td
 
 
@@ -73,10 +67,11 @@ def convert_to_time_repr(seconds: float):
 def handle_stage_name(init_values, stage):
     data = init_values['data']
     vals = init_values['times']
-    stage_value = data[data['Stage'] == stage]['Time']
+    index = init_values['index']
+    stage_value = data[data['Stage'] == stage][index]
 
     if len(stage_value) != 0:
-        val=stage_value.dt.total_seconds().iloc[0]
+        val = stage_value.dt.total_seconds().iloc[0]
         vals[int(stage)-1] = val
     return init_values
 
@@ -86,7 +81,7 @@ def handle_rider(init_values:dict , name_group: DataFrameGroupBy  ):
     unique_stages = init_values['stages']
     ax = init_values['ax']
     times = np.full(len(unique_stages), np.nan)
-    rider_vals = reduce(handle_stage_name,unique_stages, {'data': data, 'times': times} )
+    rider_vals = reduce(handle_stage_name,unique_stages, {'data': data, 'times': times, 'index': 'Time'} )
     ax.plot(unique_stages, rider_vals['times'],'o-', label=name[0])
     ax.set_xticks(unique_stages)
     ax.set_xlabel('Stages')
@@ -96,30 +91,38 @@ def handle_rider(init_values:dict , name_group: DataFrameGroupBy  ):
 
 
 
-def make_stage_plot(df_orig: pd.DataFrame):
-    fig,ax = plt.subplots( figsize=(16,8))
-    df = df_orig.copy()
 
-    # Getting the unique stages (1,2,3,4,5....)
+def handle_egap(init_values:dict,name_group: DataFrameGroupBy):
+    name, data = name_group
+    unique_stages = init_values['stages']
+    ax = init_values['ax']
+    times = np.full(len(unique_stages), np.nan)
+    rider_vals = reduce(handle_stage_name, unique_stages, {'data': data, 'times': times, 'index': 'Egap'} )
+    ax.plot(unique_stages, rider_vals['times'], 'o-', label=name[0])
+    ax.set_xticks(unique_stages)
+    ax.set_xlabel('Stages')
+    init_values[name[0]] = rider_vals['times']
+    return init_values
+
+
+
+def make_stage_plot_by_name(df_orig: pd.DataFrame,
+                            file_name: str,
+                            handler: callable):
+    fig, ax = plt.subplots(figsize=(16, 8))
+    df = df_orig.copy()
     unique_stages = df['Stage'].unique()
     # First we need to create y_values, which means the times for each rider
     name_group = df.groupby(['Name'])
-    y_values = reduce(handle_rider, name_group, {'stages': unique_stages, 'ax': ax})
+    y_values = reduce(handler, name_group, {'stages': unique_stages, 'ax': ax})
     ax.legend()
     yticks = ax.get_yticks()
     ax.set_yticks(yticks)  # Set the tick positions first
     tm_arr = map(convert_to_time_repr, yticks)
     ax.set_yticklabels(tm_arr, ha='right' )
-    output_file = 'plot_rider_times.png'
-    plt.savefig(output_file)
+
+    plt.savefig(file_name)
     plt.close()
-
-def make_egap_plot(df: pd.DataFrame):
-    fix, ax = plt.subplot(figsize=(16, 8))
-
-
-
-
 
 
 def main():
@@ -129,10 +132,12 @@ def main():
     # Fix the times
     df['Time'] = df['Time'].apply(parse_time_str)
     df['Egap'] = df['Egap'].apply(parse_egap)
-    ic(df['Egap'])
-    make_stage_plot(df)
-
-
+    #ic(df[df['Name'] == 'Calle Olsen [SZ]']['Time'])
+    make_stage_plot_by_name(df, "test.png", handle_rider)
+    make_stage_plot_by_name(df, "test2.png", handle_egap)
+    #make_stage_plot(df)
+    #make_egap_plot(df)
+    #make_pos_plot(df)
 
 
 if __name__ == '__main__':
