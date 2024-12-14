@@ -4,7 +4,7 @@ from itertools import takewhile
 from icecream import ic
 import numpy as np
 from datetime import timedelta
-from frr2.gc_data import *
+#from frr2.gc_data import *
 import matplotlib.pyplot as plt
 from pandas.core.groupby.generic import DataFrameGroupBy
 from datetime import datetime,timedelta
@@ -75,24 +75,47 @@ def handle_stage_name(init_values, stage):
         vals[int(stage)-1] = val
     return init_values
 
+def handle_pos_name(init_values: dict, stage: pd.DataFrame):
+    data = init_values['data']
+    vals = init_values['times']
+    index = init_values['index']
+    stage_value = data[data['Stage'] == stage][index]
 
-def handle_rider(init_values:dict , name_group: DataFrameGroupBy  ):
-    name,data = name_group
+    if len(stage_value) != 0:
+        vals[int(stage)-1] = int(stage_value)
+    return init_values
+
+
+def set_ytick_time_label(ax):
+    yticks = ax.get_yticks()
+    ax.set_yticks(yticks)  # Set the tick positions first
+    tm_arr = map(convert_to_time_repr, yticks)
+    ax.set_yticklabels(tm_arr, ha='right' )
+
+
+def handle_rider(init_values: dict, name_group: DataFrameGroupBy):
+    name, data = name_group
     unique_stages = init_values['stages']
     ax = init_values['ax']
     times = np.full(len(unique_stages), np.nan)
-    rider_vals = reduce(handle_stage_name,unique_stages, {'data': data, 'times': times, 'index': 'Time'} )
-    ax.plot(unique_stages, rider_vals['times'],'o-', label=name[0])
+
+    rider_vals = reduce(handle_stage_name, unique_stages, {
+        'data': data,
+        'times': times,
+        'index': 'Time'
+    })
+
+    ax.plot(unique_stages, rider_vals['times'], 'o-', label=name[0])
     ax.set_xticks(unique_stages)
     ax.set_xlabel('Stages')
+
+    set_ytick_time_label(ax)
+
     init_values[name[0]] = rider_vals['times']
     return init_values
 
 
-
-
-
-def handle_egap(init_values:dict,name_group: DataFrameGroupBy):
+def handle_egap(init_values: dict, name_group: DataFrameGroupBy):
     name, data = name_group
     unique_stages = init_values['stages']
     ax = init_values['ax']
@@ -101,27 +124,37 @@ def handle_egap(init_values:dict,name_group: DataFrameGroupBy):
     ax.plot(unique_stages, rider_vals['times'], 'o-', label=name[0])
     ax.set_xticks(unique_stages)
     ax.set_xlabel('Stages')
+    set_ytick_time_label(ax)
     init_values[name[0]] = rider_vals['times']
     return init_values
 
+
+def handle_pos(init_values: dict, name_group: DataFrameGroupBy):
+    name, data = name_group
+    unique_stages = init_values['stages']
+    ax = init_values['ax']
+    positions = np.full(len(unique_stages), np.nan)
+    rider_vals = reduce(handle_pos_name, unique_stages, {'data': data,
+                                                         'times': positions, 'index': 'Pos'} )
+    ax.plot(unique_stages, rider_vals['times'], 'o-', label=name[0])
+    ax.set_xticks(unique_stages)
+    ax.set_xlabel('Stages')
+    ax.set_ylabel('Positions')
+    init_values[name[0]] = rider_vals['times']
+    return init_values
 
 
 def make_stage_plot_by_name(df_orig: pd.DataFrame,
                             file_name: str,
                             handler: callable):
-    fig, ax = plt.subplots(figsize=(16, 8))
+    fig, ax = plt.subplots(figsize=(20, 16))
     df = df_orig.copy()
     unique_stages = df['Stage'].unique()
     # First we need to create y_values, which means the times for each rider
     name_group = df.groupby(['Name'])
-    y_values = reduce(handler, name_group, {'stages': unique_stages, 'ax': ax})
+    reduce(handler, name_group, {'stages': unique_stages, 'ax': ax})
     ax.legend()
-    yticks = ax.get_yticks()
-    ax.set_yticks(yticks)  # Set the tick positions first
-    tm_arr = map(convert_to_time_repr, yticks)
-    ax.set_yticklabels(tm_arr, ha='right' )
-
-    plt.savefig(file_name)
+    plt.savefig(file_name, bbox_inches='tight')
     plt.close()
 
 
@@ -132,14 +165,11 @@ def main():
     # Fix the times
     df['Time'] = df['Time'].apply(parse_time_str)
     df['Egap'] = df['Egap'].apply(parse_egap)
-    #ic(df[df['Name'] == 'Calle Olsen [SZ]']['Time'])
-    make_stage_plot_by_name(df, "test.png", handle_rider)
-    make_stage_plot_by_name(df, "test2.png", handle_egap)
-    #make_stage_plot(df)
-    #make_egap_plot(df)
-    #make_pos_plot(df)
+    make_stage_plot_by_name(df, "plot_rider_times.svg", handle_rider)
+    make_stage_plot_by_name(df, "plot_rider_egap.svg", handle_egap)
+    make_stage_plot_by_name(df, "plot_rider_pos.svg", handle_pos)
+
 
 
 if __name__ == '__main__':
-
     main()
